@@ -1,0 +1,105 @@
+seed:
+  type: grid
+  choices: [ 0,1,2]
+
+transform_type:
+  type: grid
+  # choices: [
+
+  #   "resize256",
+  #   "resize256,morpho_erosion",
+  #   "resize256,morpho_dilation",
+  #   "resize256,affine",
+  #   "resize256,colorjitter",
+  #   "resize256,hflip",
+  #   "resize256,invert",
+  #   "resize256,gaussianblur",
+
+
+  #   "resize256,hflip,morpho_dilation",
+  #   "resize256,hflip,morpho_erosion",
+  #   "resize256,hflip,colorjitter",
+  #   "resize256,hflip,gaussianblur"
+  #   "resize256,hflip,affine",
+  #   "resize256,hflip,invert",
+    
+  #   "resize256,hflip,affine,colorjitter",
+   
+  #   "resize256,affine,colorjitter",
+  #   "resize256,affine,invert",
+  #   "resize256,affine,invert,colorjitter",
+  #   "resize256,affine,invert,morpho_erosion",
+  #   "resize256,affine,invert,morpho_dilation",
+  #   "resize256,affine,invert,gaussianblur",
+
+    
+  #   "resize256,hflip,affine,invert,colorjitter",
+  #   "resize256,hflip,affine,invert,morpho_erosion",
+  #   "resize256,hflip,affine,invert,morpho_dilation",
+  #    "resize256,hflip,affine,invert,gaussianblur",
+
+
+  #   "resize256,affine,morpho_dilation,morpho_erosion",
+  #   "resize256,affine,morpho_erosion,morpho_dilation",
+  #   "resize256,hflip,affine,morpho_dilation,morpho_erosion",
+  #   "resize256,hflip,affine,morpho_erosion,morpho_dilation",
+  #   "resize256,hflip,affine,invert,morpho_dilation,morpho_erosion",
+  #   "resize256,hflip,affine,invert,morpho_erosion,morpho_dilation",
+
+
+  # ]
+
+
+
+  choices: [
+    "resize256", "resize256,morpho_erosion", "resize256,morpho_dilation", "resize256,affine", 
+    "resize256,colorjitter", "resize256,hflip", "resize256,invert", "resize256,gaussianblur",
+    "resize256,morpho_erosion,morpho_dilation", "resize256,morpho_erosion,affine", 
+    "resize256,morpho_erosion,colorjitter", "resize256,morpho_erosion,hflip", "resize256,morpho_erosion,invert",
+    "resize256,morpho_erosion,gaussianblur", "resize256,morpho_dilation,affine", "resize256,morpho_dilation,colorjitter",
+    "resize256,morpho_dilation,hflip", "resize256,morpho_dilation,invert", "resize256,morpho_dilation,gaussianblur",
+    "resize256,affine,colorjitter", "resize256,affine,hflip", "resize256,affine,invert", "resize256,affine,gaussianblur", 
+    "resize256,colorjitter,hflip", "resize256,colorjitter,invert", "resize256,colorjitter,gaussianblur", 
+    "resize256,hflip,invert", "resize256,hflip,gaussianblur", "resize256,invert,gaussianblur",
+    "resize256,morpho_erosion,morpho_dilation,affine", "resize256,morpho_erosion,morpho_dilation,colorjitter", 
+    "resize256,morpho_erosion,morpho_dilation,hflip", "resize256,morpho_erosion,morpho_dilation,invert",
+    "resize256,morpho_erosion,morpho_dilation,gaussianblur", "resize256,morpho_erosion,affine,colorjitter", 
+    "resize256,morpho_erosion,affine,hflip", "resize256,morpho_erosion,affine,invert", 
+    "resize256,morpho_erosion,affine,gaussianblur", "resize256,morpho_erosion,colorjitter,hflip",
+    "resize256,morpho_erosion,colorjitter,invert", "resize256,morpho_erosion,colorjitter,gaussianblur",
+    "resize256,morpho_erosion,hflip,invert", "resize256,morpho_erosion,hflip,gaussianblur", 
+    "resize256,morpho_erosion,invert,gaussianblur", "resize256,morpho_dilation,affine,colorjitter", 
+    "resize256,morpho_dilation,affine,hflip", "resize256,morpho_dilation,affine,invert", 
+    "resize256,morpho_dilation,affine,gaussianblur", "resize256,morpho_dilation,colorjitter,hflip", 
+    "resize256,morpho_dilation,colorjitter,invert", "resize256,morpho_dilation,colorjitter,gaussianblur",
+    "resize256,morpho_dilation,hflip,invert", "resize256,morpho_dilation,hflip,gaussianblur",
+    "resize256,morpho_dilation,invert,gaussianblur", "resize256,affine,colorjitter,hflip", 
+    "resize256,affine,colorjitter,invert", "resize256,affine,colorjitter,gaussianblur",
+    "resize256,affine,hflip,invert", "resize256,affine,hflip,gaussianblur", 
+    "resize256,affine,invert,gaussianblur", "resize256,colorjitter,hflip,invert",
+    "resize256,colorjitter,hflip,gaussianblur", "resize256,colorjitter,invert,gaussianblur", 
+    "resize256,hflip,invert,gaussianblur",
+    "resize256,gray", "resize256,gray,morpho_erosion", "resize256,gray,morpho_dilation", 
+    "resize256,gray,affine", "resize256,gray,colorjitter", "resize256,gray,hflip", 
+    "resize256,gray,invert", "resize256,gray,gaussianblur", "resize256,gray,morpho_erosion,morpho_dilation", 
+    "resize256,gray,morpho_erosion,affine", "resize256,gray,morpho_erosion,colorjitter", 
+    "resize256,gray,morpho_erosion,hflip", "resize256,gray,morpho_erosion,invert", 
+    "resize256,gray,morpho_erosion,gaussianblur", "resize256,gray,morpho_dilation,affine", 
+    "resize256,gray,morpho_dilation,colorjitter", "resize256,gray,morpho_dilation,hflip", 
+    "resize256,gray,morpho_dilation,invert", "resize256,gray,morpho_dilation,gaussianblur", 
+    "resize256,gray,affine,colorjitter", "resize256,gray,affine,hflip", "resize256,gray,affine,invert", 
+    "resize256,gray,affine,gaussianblur", "resize256,gray,colorjitter,hflip", 
+    "resize256,gray,colorjitter,invert", "resize256,gray,colorjitter,gaussianblur", 
+    "resize256,gray,hflip,invert", "resize256,gray,hflip,gaussianblur", "resize256,gray,invert,gaussianblur"
+  ]
+
+
+
+
+# batch_size:
+#   type: grid
+#   choices: [64, 128]
+
+
+# arch:
+#   type:grid

@@ -1,0 +1,6 @@
+transform_type:
+  type: grid
+  choices: [
+    "resize64", "resize64,morpho_erosion", 
+    "resize64,morpho_dilation", "resize64,affine", 
+  ]

@@ -1,0 +1,57 @@
+transform_type:
+  type: grid
+  # choices: [
+  #       # "resize96",
+  #       # "resize96,hflip", 
+  #       "resize96,morpho_erosion",
+  #       # "resize96,morpho_dilation",
+  #       # "resize96,affine" ,
+  #       # "resize96,colorjitter" ,
+  #       # "resize96,invert",
+  #       # "resize96,gaussianblur"  
+  #        ]
+
+
+  choices: [
+   "resize96",  "resize96,morpho_erosion", 
+    "resize96,morpho_dilation", "resize96,affine", 
+    "resize96,colorjitter", "resize96,hflip", "resize96,invert", "resize96,gaussianblur",
+    "resize96,morpho_erosion,morpho_dilation", "resize96,morpho_erosion,affine", 
+    "resize96,morpho_erosion,colorjitter", "resize96,morpho_erosion,hflip", "resize96,morpho_erosion,invert",
+    "resize96,morpho_erosion,gaussianblur", "resize96,morpho_dilation,affine", "resize96,morpho_dilation,colorjitter",
+    "resize96,morpho_dilation,hflip", "resize96,morpho_dilation,invert", "resize96,morpho_dilation,gaussianblur",
+    "resize96,affine,colorjitter", "resize96,affine,hflip", "resize96,affine,invert", "resize96,affine,gaussianblur", 
+    "resize96,colorjitter,hflip", "resize96,colorjitter,invert", "resize96,colorjitter,gaussianblur", 
+    "resize96,hflip,invert", "resize96,hflip,gaussianblur", "resize96,invert,gaussianblur",
+    "resize96,morpho_erosion,morpho_dilation,affine", "resize96,morpho_erosion,morpho_dilation,colorjitter", 
+    "resize96,morpho_erosion,morpho_dilation,hflip", "resize96,morpho_erosion,morpho_dilation,invert",
+    "resize96,morpho_erosion,morpho_dilation,gaussianblur", "resize96,morpho_erosion,affine,colorjitter", 
+    "resize96,morpho_erosion,affine,hflip", "resize96,morpho_erosion,affine,invert", 
+    "resize96,morpho_erosion,affine,gaussianblur", "resize96,morpho_erosion,colorjitter,hflip",
+    "resize96,morpho_erosion,colorjitter,invert", "resize96,morpho_erosion,colorjitter,gaussianblur",
+    "resize96,morpho_erosion,hflip,invert", "resize96,morpho_erosion,hflip,gaussianblur", 
+    "resize96,morpho_erosion,invert,gaussianblur", "resize96,morpho_dilation,affine,colorjitter", 
+    "resize96,morpho_dilation,affine,hflip", "resize96,morpho_dilation,affine,invert", 
+    "resize96,morpho_dilation,affine,gaussianblur", "resize96,morpho_dilation,colorjitter,hflip", 
+    "resize96,morpho_dilation,colorjitter,invert", "resize96,morpho_dilation,colorjitter,gaussianblur",
+    "resize96,morpho_dilation,hflip,invert", "resize96,morpho_dilation,hflip,gaussianblur",
+    "resize96,morpho_dilation,invert,gaussianblur", "resize96,affine,colorjitter,hflip", 
+    "resize96,affine,colorjitter,invert", "resize96,affine,colorjitter,gaussianblur",
+    "resize96,affine,hflip,invert", "resize96,affine,hflip,gaussianblur", 
+    "resize96,affine,invert,gaussianblur", "resize96,colorjitter,hflip,invert",
+    "resize96,colorjitter,hflip,gaussianblur", "resize96,colorjitter,invert,gaussianblur", 
+    "resize96,hflip,invert,gaussianblur",
+    "resize96,gray", "resize96,gray,morpho_erosion", "resize96,gray,morpho_dilation", 
+    "resize96,gray,affine", "resize96,gray,colorjitter", "resize96,gray,hflip", 
+    "resize96,gray,invert", "resize96,gray,gaussianblur", "resize96,gray,morpho_erosion,morpho_dilation", 
+    "resize96,gray,morpho_erosion,affine", "resize96,gray,morpho_erosion,colorjitter", 
+    "resize96,gray,morpho_erosion,hflip", "resize96,gray,morpho_erosion,invert", 
+    "resize96,gray,morpho_erosion,gaussianblur", "resize96,gray,morpho_dilation,affine", 
+    "resize96,gray,morpho_dilation,colorjitter", "resize96,gray,morpho_dilation,hflip", 
+    "resize96,gray,morpho_dilation,invert", "resize96,gray,morpho_dilation,gaussianblur", 
+    "resize96,gray,affine,colorjitter", "resize96,gray,affine,hflip", "resize96,gray,affine,invert", 
+    "resize96,gray,affine,gaussianblur", "resize96,gray,colorjitter,hflip", 
+    "resize96,gray,colorjitter,invert", "resize96,gray,colorjitter,gaussianblur", 
+    "resize96,gray,hflip,invert", "resize96,gray,hflip,gaussianblur", "resize96,gray,invert,gaussianblur"
+  ]
+

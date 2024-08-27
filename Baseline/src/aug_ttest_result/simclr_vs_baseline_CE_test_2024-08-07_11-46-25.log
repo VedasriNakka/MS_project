@@ -1,0 +1,103 @@
+2024-08-07 11:46:25,935 - INFO - SimCLR data points: 279 
+
+2024-08-07 11:46:25,936 - INFO - Baseline CE data points: 279 
+
+2024-08-07 11:46:26,135 - INFO - 
+ ----Results of the one-sided paired t-tests (SimCLR > Baseline CE): 
+
+2024-08-07 11:46:26,135 - INFO - Transform: randomcrop224,morpho_erosion,hflip, Statistic=-1.9870083883298049, p-value=0.9073585520522839, Avg Acc Diff=-0.521852572733323
+2024-08-07 11:46:26,135 - INFO - Transform: randomcrop224,morpho_erosion,colorjitter,gray, Statistic=-2.579634098656873, p-value=0.9384366179786664, Avg Acc Diff=-0.24787982306668255
+2024-08-07 11:46:26,135 - INFO - Transform: randomcrop224,colorjitter,hflip,gaussianblur, Statistic=-1.1097736076144347, p-value=0.8086709563977792, Avg Acc Diff=-0.46314199766666775
+2024-08-07 11:46:26,135 - INFO - Transform: randomcrop224,morpho_erosion,colorjitter, Statistic=0.3746397903771475, p-value=0.37196137456153683, Avg Acc Diff=0.16307830813333624
+2024-08-07 11:46:26,135 - INFO - Transform: randomcrop224,hflip,invert,gray, Statistic=-1.5106282534769984, p-value=0.8650096880189536, Avg Acc Diff=-0.5609909693333179
+2024-08-07 11:46:26,135 - INFO - Transform: randomcrop224,hflip,invert, Statistic=-1.831019387164669, p-value=0.8957120306667333, Avg Acc Diff=-0.7240712642666693
+2024-08-07 11:46:26,136 - INFO - Transform: randomcrop224,invert,gaussianblur,gray, Statistic=-3.6222910953044543, p-value=0.9657610847685587, Avg Acc Diff=-0.8806268374333257
+2024-08-07 11:46:26,136 - INFO - Transform: randomcrop224,affine,hflip,gray, Statistic=-17.3438160933664, p-value=0.9983460528941192, Avg Acc Diff=-1.6894956429333376
+2024-08-07 11:46:26,136 - INFO - Transform: randomcrop224,affine, Statistic=-1.4074458608020588, p-value=0.8527043843666529, Avg Acc Diff=-0.4305303097000035
+2024-08-07 11:46:26,136 - INFO - Transform: randomcrop224,colorjitter,hflip,invert, Statistic=-1.6439788212228807, p-value=0.8790479380735308, Avg Acc Diff=-0.3913899262666547
+2024-08-07 11:46:26,136 - INFO - Transform: randomcrop224,morpho_dilation,affine,invert, Statistic=-2.498962449252554, p-value=0.935150333921926, Avg Acc Diff=-0.33920407293332744
+2024-08-07 11:46:26,136 - INFO - Transform: randomcrop224,hflip, Statistic=-1.9066002338925976, p-value=0.9015853769723402, Avg Acc Diff=-0.5805611610666688
+2024-08-07 11:46:26,136 - INFO - Transform: randomcrop224,affine,colorjitter,gray, Statistic=-0.31981392797859826, p-value=0.6102864101304644, Avg Acc Diff=-0.25440454483333497
+2024-08-07 11:46:26,136 - INFO - Transform: randomcrop224,hflip,gaussianblur,gray, Statistic=-1.7960389032593553, p-value=0.8928359189357462, Avg Acc Diff=-0.3913879395000066
+2024-08-07 11:46:26,136 - INFO - Transform: randomcrop224,affine,colorjitter, Statistic=-2.451198955679452, p-value=0.9330881798847609, Avg Acc Diff=-0.5283792813666679
+2024-08-07 11:46:26,136 - INFO - Transform: randomcrop224,morpho_dilation,hflip, Statistic=-1.1325070351604183, p-value=0.8125386776447134, Avg Acc Diff=-0.33268332483334007
+2024-08-07 11:46:26,136 - INFO - Transform: randomcrop224,affine,colorjitter,gaussianblur, Statistic=-1.494525822873625, p-value=0.8631768312307107, Avg Acc Diff=-0.5479454994333111
+2024-08-07 11:46:26,136 - INFO - Transform: randomcrop224,colorjitter,invert,gaussianblur, Statistic=-0.7054425480258875, p-value=0.7231854790901824, Avg Acc Diff=-0.1500328382000049
+2024-08-07 11:46:26,136 - INFO - Transform: randomcrop224,morpho_erosion,gaussianblur,gray, Statistic=-1.0422414924635703, p-value=0.7966344537458463, Avg Acc Diff=-0.3718217213666719
+2024-08-07 11:46:26,136 - INFO - Transform: randomcrop224,morpho_dilation,colorjitter, Statistic=-5.000000000806742, p-value=0.9811252243304384, Avg Acc Diff=-0.6196995575999864
+2024-08-07 11:46:26,136 - INFO - Transform: randomcrop224,gray, Statistic=-1.0734273919398782, p-value=0.8022961398329148, Avg Acc Diff=-0.46314597130000834
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,morpho_erosion,affine,invert, Statistic=-3.398109366710357, p-value=0.9616187394251937, Avg Acc Diff=-0.6001293659333271
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,morpho_dilation,gray, Statistic=-0.9707711135085794, p-value=0.7829672978045443, Avg Acc Diff=-0.4500965277333364
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,morpho_erosion,affine,hflip, Statistic=-9.124112051751041, p-value=0.994100048074799, Avg Acc Diff=-1.082843542100008
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,morpho_erosion,colorjitter,invert, Statistic=-0.014012875994589405, p-value=0.50495405663032, Avg Acc Diff=-0.0065227349666656664
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,affine,invert, Statistic=-17.109799747364214, p-value=0.9983007322951191, Avg Acc Diff=-1.0763208071333281
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,morpho_dilation,affine,gray, Statistic=-2.729728885637968, p-value=0.9439570871381744, Avg Acc Diff=-0.5805591742000047
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,morpho_erosion,morpho_dilation, Statistic=-0.8237615452976851, p-value=0.751662761547282, Avg Acc Diff=-0.2478818098666693
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,morpho_erosion,morpho_dilation,colorjitter, Statistic=-0.319966092728758, p-value=0.6103363287818052, Avg Acc Diff=-0.241357088066664
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,colorjitter,gray, Statistic=-0.6610281592253506, p-value=0.7117219680760909, Avg Acc Diff=-0.24135708810000267
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,morpho_erosion,morpho_dilation,invert, Statistic=-3.315652189276794, p-value=0.9599123477009597, Avg Acc Diff=-0.8545339107333376
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,morpho_dilation,hflip,invert, Statistic=-6.541027888329918, p-value=0.9887080509289891, Avg Acc Diff=-0.5740384260666644
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,morpho_erosion,hflip,gray, Statistic=-2.2968362473625246, p-value=0.9257649496886837, Avg Acc Diff=-0.5153278509666706
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,colorjitter,hflip,gray, Statistic=-1.838408093927838, p-value=0.8963064219378282, Avg Acc Diff=-0.7501622041000076
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,morpho_dilation,invert,gray, Statistic=0.5473892355845542, p-value=0.3195167908639568, Avg Acc Diff=0.17612576486668274
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,affine,gray, Statistic=-5.563216385099602, p-value=0.9845876660075163, Avg Acc Diff=-0.2739747365666858
+2024-08-07 11:46:26,137 - INFO - Transform: randomcrop224,hflip,gray, Statistic=-18.47859147819682, p-value=0.9985420938884394, Avg Acc Diff=-1.1872152487333096
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,colorjitter,invert,gray, Statistic=-4.627910268608064, p-value=0.9781720353730546, Avg Acc Diff=-0.8414884407999921
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,affine,invert,gaussianblur, Statistic=-2.1494243338160572, p-value=0.9176979577913169, Avg Acc Diff=-0.789302587466679
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,affine,gaussianblur,gray, Statistic=-2.1166541185931536, p-value=0.9157429268053314, Avg Acc Diff=-0.515329837799996
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,morpho_erosion,colorjitter,hflip, Statistic=-2.308062865833937, p-value=0.9263340036644722, Avg Acc Diff=-0.6653606891666755
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,affine,gaussianblur, Statistic=-4.578028452013062, p-value=0.977725262266807, Avg Acc Diff=-0.8675793806333445
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,morpho_erosion,affine,gaussianblur, Statistic=-2.4712614129432975, p-value=0.9339653396097449, Avg Acc Diff=-0.8284370104666721
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,morpho_erosion,affine,colorjitter, Statistic=2.4598047686287656, p-value=0.06653358539876617, Avg Acc Diff=0.18917322159998662
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,morpho_dilation,colorjitter,gray, Statistic=-0.12546310085982568, p-value=0.5441843690626297, Avg Acc Diff=-0.03261367483334254
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,morpho_dilation, Statistic=-6.379043727678358, p-value=0.988147783399461, Avg Acc Diff=-1.2002607186666552
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,colorjitter, Statistic=-0.9742538398058141, p-value=0.7836561386676225, Avg Acc Diff=-0.3718197345999954
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,morpho_erosion,morpho_dilation,gray, Statistic=-3.4097791713380996, p-value=0.9618517565468191, Avg Acc Diff=-0.5675156911333232
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,affine,hflip,gaussianblur, Statistic=-5.281322868670892, p-value=0.9829837722838793, Avg Acc Diff=-1.7482062180333315
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,morpho_dilation,hflip,gray, Statistic=-1.5418850137412596, p-value=0.8684795657633111, Avg Acc Diff=-0.26092529293333655
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,morpho_erosion,affine, Statistic=-3.8099908046402455, p-value=0.9687498062408972, Avg Acc Diff=-0.8741041024666742
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,affine,colorjitter,invert, Statistic=0.06823962760199383, p-value=0.4759016863112674, Avg Acc Diff=0.026092926700016505
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,morpho_dilation,invert,gaussianblur, Statistic=-2.28482860060291, p-value=0.9251495726917338, Avg Acc Diff=-0.4501005013666628
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,morpho_dilation,hflip,gaussianblur, Statistic=-1.0915328344669604, p-value=0.8055013961456583, Avg Acc Diff=-0.4500985144999987
+2024-08-07 11:46:26,138 - INFO - Transform: randomcrop224,morpho_erosion,colorjitter,gaussianblur, Statistic=-1.00001450349403, p-value=0.7886779257732994, Avg Acc Diff=-0.13698736823334912
+2024-08-07 11:46:26,139 - INFO - Transform: randomcrop224,morpho_erosion,gray, Statistic=-1.0943111958368235, p-value=0.8059880149478487, Avg Acc Diff=-0.3326813380333391
+2024-08-07 11:46:26,139 - INFO - Transform: randomcrop224,morpho_dilation,gaussianblur,gray, Statistic=-0.6823238801223354, p-value=0.7172712535087453, Avg Acc Diff=-0.27397473653333293
+2024-08-07 11:46:26,139 - INFO - Transform: randomcrop224,morpho_erosion,affine,gray, Statistic=-0.4634116445488608, p-value=0.6556949610217155, Avg Acc Diff=-0.12393991153332706
+2024-08-07 11:46:26,139 - INFO - Transform: randomcrop224,morpho_erosion,invert,gray, Statistic=-1.6084141294796523, p-value=0.8754946059565508, Avg Acc Diff=-0.6327450275333462
+2024-08-07 11:46:26,139 - INFO - Transform: randomcrop224,colorjitter,hflip, Statistic=-3.178913754254371, p-value=0.9568330496281237, Avg Acc Diff=-0.31311114633334114
+2024-08-07 11:46:26,139 - INFO - Transform: randomcrop224,affine,hflip,invert, Statistic=-13.999116397452186, p-value=0.9974680209874139, Avg Acc Diff=-1.0371843973999972
+2024-08-07 11:46:26,139 - INFO - Transform: randomcrop224,morpho_dilation,colorjitter,gaussianblur, Statistic=-1.5497355516928897, p-value=0.8693332038468422, Avg Acc Diff=-0.913244485866656
+2024-08-07 11:46:26,139 - INFO - Transform: randomcrop224,colorjitter,gaussianblur,gray, Statistic=-1.0964950287358242, p-value=0.8063695313739883, Avg Acc Diff=-0.2478778361666656
+2024-08-07 11:46:26,139 - INFO - Transform: randomcrop224,morpho_erosion,invert, Statistic=-0.8542507907948145, p-value=0.7585201509892546, Avg Acc Diff=-0.11741717656667561
+2024-08-07 11:46:26,139 - INFO - Transform: randomcrop224,morpho_dilation,affine,hflip, Statistic=-8.866702803380173, p-value=0.9937589931740254, Avg Acc Diff=-1.1611203352333348
+2024-08-07 11:46:26,139 - INFO - Transform: randomcrop224,colorjitter,gaussianblur, Statistic=-0.3445534588530769, p-value=0.6183559604086233, Avg Acc Diff=-0.19569396973334108
+2024-08-07 11:46:26,139 - INFO - Transform: randomcrop224,morpho_erosion,morpho_dilation,gaussianblur, Statistic=-1.7064898083926026, p-value=0.8849814229687238, Avg Acc Diff=-0.5283772945333425
+2024-08-07 11:46:26,139 - INFO - Transform: randomcrop224,invert, Statistic=-3.790438825773503, p-value=0.9684565295215081, Avg Acc Diff=-0.8023480574000104
+2024-08-07 11:46:26,139 - INFO - Transform: randomcrop224,morpho_erosion,hflip,gaussianblur, Statistic=-1.8773052923463114, p-value=0.8993624772667685, Avg Acc Diff=-0.4305303097000035
+2024-08-07 11:46:26,139 - INFO - Transform: randomcrop224,affine,hflip, Statistic=-3.5041109440449993, p-value=0.9636626315293119, Avg Acc Diff=-1.5851259231333472
+2024-08-07 11:46:26,140 - INFO - Transform: randomcrop224,invert,gaussianblur, Statistic=9.216905114286871e-06, p-value=0.49999674133194616, Avg Acc Diff=1.98680000096374e-06
+2024-08-07 11:46:26,140 - INFO - Transform: randomcrop224,affine,colorjitter,hflip, Statistic=-5.9104387475669355, p-value=0.9862736642899269, Avg Acc Diff=-0.8349637190666641
+2024-08-07 11:46:26,140 - INFO - Transform: randomcrop224,colorjitter,invert, Statistic=-0.7118563861019345, p-value=0.724805942067204, Avg Acc Diff=-0.09784499803335223
+2024-08-07 11:46:26,140 - INFO - Transform: randomcrop224,morpho_dilation,affine,gaussianblur, Statistic=-1.5708747301391977, p-value=0.8715969253864347, Avg Acc Diff=-0.6392717362000155
+2024-08-07 11:46:26,140 - INFO - Transform: randomcrop224,morpho_dilation,affine, Statistic=-1.2234008864121033, p-value=0.8271214361579319, Avg Acc Diff=-0.26092727980000063
+2024-08-07 11:46:26,140 - INFO - Transform: randomcrop224,gaussianblur,gray, Statistic=-2.8749714467037375, p-value=0.9486568627912928, Avg Acc Diff=-0.30006567636667114
+2024-08-07 11:46:26,140 - INFO - Transform: randomcrop224,hflip,invert,gaussianblur, Statistic=-3.6541006824591116, p-value=0.966295949023201, Avg Acc Diff=-1.2263516585000076
+2024-08-07 11:46:26,140 - INFO - Transform: randomcrop224,morpho_erosion,morpho_dilation,affine, Statistic=0.681369749567195, p-value=0.282975296408119, Avg Acc Diff=0.08479952809999247
+2024-08-07 11:46:26,140 - INFO - Transform: randomcrop224,morpho_erosion,morpho_dilation,hflip, Statistic=-1.7609078415680557, p-value=0.8898411111324003, Avg Acc Diff=-0.391389926333332
+2024-08-07 11:46:26,140 - INFO - Transform: randomcrop224,morpho_dilation,colorjitter,hflip, Statistic=-0.1842140064855436, p-value=0.5645838809563046, Avg Acc Diff=-0.04566311833332293
+2024-08-07 11:46:26,140 - INFO - Transform: randomcrop224,invert,gray, Statistic=-0.6263697627403747, p-value=0.7024833985232697, Avg Acc Diff=-0.33920407293334165
+2024-08-07 11:46:26,140 - INFO - Transform: randomcrop224,morpho_erosion,hflip,invert, Statistic=-2.237738358324963, p-value=0.9226672473098324, Avg Acc Diff=-0.5609929562000104
+2024-08-07 11:46:26,140 - INFO - Transform: randomcrop224,hflip,gaussianblur, Statistic=-1.9884966696688133, p-value=0.9074610659226606, Avg Acc Diff=-0.6718834241333411
+2024-08-07 11:46:26,140 - INFO - Transform: randomcrop224,affine,invert,gray, Statistic=-1.0646197060406368, p-value=0.8007153088261679, Avg Acc Diff=-0.39791266126667324
+2024-08-07 11:46:26,141 - INFO - Transform: randomcrop224,morpho_dilation,colorjitter,invert, Statistic=-4.287131896466737, p-value=0.9748321189954152, Avg Acc Diff=-0.43052832286666387
+2024-08-07 11:46:26,141 - INFO - Transform: randomcrop224,morpho_erosion,invert,gaussianblur, Statistic=-0.5972237717351775, p-value=0.6945168057616116, Avg Acc Diff=-0.22178689640001892
+2024-08-07 11:46:26,141 - INFO - Transform: randomcrop224,morpho_dilation,gaussianblur, Statistic=-1.554466532690683, p-value=0.8698442250564488, Avg Acc Diff=-0.5414227644333351
+2024-08-07 11:46:26,141 - INFO - Transform: randomcrop224,morpho_dilation,invert, Statistic=-22.59939692663775, p-value=0.999023880286416, Avg Acc Diff=-0.737116734166662
+2024-08-07 11:46:26,141 - INFO - Transform: randomcrop224,morpho_erosion, Statistic=-0.23913194623207526, p-value=0.5833625564680207, Avg Acc Diff=-0.14351010326664948
+2024-08-07 11:46:26,141 - INFO - Transform: randomcrop224, Statistic=-1.057303696260413, p-value=0.7993913738869032, Avg Acc Diff=-0.2087394396666582
+2024-08-07 11:46:26,141 - INFO - Transform: randomcrop224,morpho_dilation,affine,colorjitter, Statistic=1.27623963134684, p-value=0.16501801105356317, Avg Acc Diff=0.273970762933331
+2024-08-07 11:46:26,141 - INFO - Transform: randomcrop224,gaussianblur, Statistic=-1.7165143138209913, p-value=0.8858974225660979, Avg Acc Diff=-0.45661926269998787
+2024-08-07 11:46:26,141 - INFO - Transform: randomcrop224,morpho_erosion,gaussianblur, Statistic=-0.026265640281113375, p-value=0.5092847049735345, Avg Acc Diff=-0.019568204899997
+2024-08-07 11:46:26,141 - INFO - -------------------------------------------------------------------------------------
+2024-08-07 11:46:26,141 - INFO - 
+No SimCLR configuration performs significantly better than the baseline CE.

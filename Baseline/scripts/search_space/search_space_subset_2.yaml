@@ -1,0 +1,13 @@
+transform_type:
+  type: grid
+  choices: [
+        "randomcrop224",
+        #"randomcrop224,hflip", 
+        # "resize256,morpho_erosion",
+        # "resize256,morpho_dilation",
+        # "resize256,affine" ,
+        # "resize256,colorjitter" ,
+        # "resize256,invert",
+        # "resize256,gaussianblur"  
+         ]
+
