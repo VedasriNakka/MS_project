@@ -132,7 +132,7 @@ def get_args():
                         type=str2bool, 
                         nargs='?', 
                         const=True, 
-                        default=False)
+                        default=True)
     parser.add_argument("--hpo_restore", 
                         help="restore experiment", 
                         type=bool,

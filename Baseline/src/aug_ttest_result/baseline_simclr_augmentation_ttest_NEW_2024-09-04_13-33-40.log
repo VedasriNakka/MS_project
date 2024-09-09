@@ -1,0 +1,27 @@
+2024-09-04 13:33:40,924 - INFO - Length of all data: 279
+2024-09-04 13:33:40,924 - INFO - Base augmentation accuracies : 
+ [79.3346405029, 78.7671267986, 78.551864624]
+2024-09-04 13:33:41,033 - INFO - 
+----------------------------------------------------------------
+
+2024-09-04 13:33:41,033 - INFO - -------------------------Top 4 Augmentations----------------
+
+2024-09-04 13:33:41,033 - INFO - Augmentation (Transform: randomcrop224,hflip,invert,gray): Statistic=4.6451700061489465, p-value=0.04335286547618452, Avg Acc Diff=1.6764521598666562
+2024-09-04 13:33:41,033 - INFO - Augmentation (Transform: randomcrop224,affine,hflip,gray): Statistic=5.113892651263567, p-value=0.03617593265036443, Avg Acc Diff=1.6568819681333338
+2024-09-04 13:33:41,033 - INFO - Augmentation (Transform: randomcrop224,hflip,gray): Statistic=7.472228100941321, p-value=0.01744293735610672, Avg Acc Diff=1.51337385173332
+2024-09-04 13:33:41,033 - INFO - Augmentation (Transform: randomcrop224,colorjitter,hflip,invert): Statistic=6.657767287478395, p-value=0.021824364556683983, Avg Acc Diff=1.4611879983999927
+2024-09-04 13:33:41,033 - INFO - 
+Some augmentations perform significantly better than the base augmentation:
+2024-09-04 13:33:41,033 - INFO - Augmentation (Transform: randomcrop224,hflip,invert,gray): Statistic=4.6451700061489465, p-value=0.04335286547618452, Avg Acc Diff=1.6764521598666562
+2024-09-04 13:33:41,033 - INFO - Augmentation (Transform: randomcrop224,affine,hflip,gray): Statistic=5.113892651263567, p-value=0.03617593265036443, Avg Acc Diff=1.6568819681333338
+2024-09-04 13:33:41,033 - INFO - Augmentation (Transform: randomcrop224,hflip,gray): Statistic=7.472228100941321, p-value=0.01744293735610672, Avg Acc Diff=1.51337385173332
+2024-09-04 13:33:41,033 - INFO - Augmentation (Transform: randomcrop224,colorjitter,hflip,invert): Statistic=6.657767287478395, p-value=0.021824364556683983, Avg Acc Diff=1.4611879983999927
+2024-09-04 13:33:41,033 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,affine,hflip): Statistic=4.350299872919399, p-value=0.04898945989613494, Avg Acc Diff=1.3307253519333386
+2024-09-04 13:33:41,033 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,hflip): Statistic=7.762680463034287, p-value=0.01619298759080633, Avg Acc Diff=0.7958273092666701
+2024-09-04 13:33:41,033 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,hflip): Statistic=5.8890661016585275, p-value=0.027644094268399998, Avg Acc Diff=0.7566869258333213
+2024-09-04 13:33:41,033 - INFO - Augmentation (Transform: randomcrop224,invert,gaussianblur,gray): Statistic=7.461425338766125, p-value=0.01749216371949685, Avg Acc Diff=0.6327470143333329
+2024-09-04 13:33:41,033 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,colorjitter,hflip): Statistic=4.435376714017022, p-value=0.04725793803360645, Avg Acc Diff=0.39138992623333024
+2024-09-04 13:33:41,034 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,colorjitter,gaussianblur): Statistic=-5.66648237326538, p-value=0.029760602778189805, Avg Acc Diff=-0.4631419976999922
+2024-09-04 13:33:41,034 - INFO - Augmentation (Transform: randomcrop224,affine,colorjitter,gaussianblur): Statistic=-4.750020395906717, p-value=0.041576447529799436, Avg Acc Diff=-0.8675793807000076
+2024-09-04 13:33:41,034 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,affine,colorjitter): Statistic=-5.66667606683437, p-value=0.029758658222768335, Avg Acc Diff=-0.9980420272000003
+2024-09-04 13:33:41,034 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,morpho_dilation,affine): Statistic=-4.8428394547286615, p-value=0.040091623711176916, Avg Acc Diff=-1.0567506154666688

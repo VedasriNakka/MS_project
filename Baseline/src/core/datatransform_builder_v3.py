@@ -88,7 +88,7 @@ def compose_transform(transform_types, **kwargs):
 
     composed_transforms.extend(
         [
-            A.CenterCrop(height=224, width=224),
+            #A.CenterCrop(height=224, width=224),
             A.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
             ToTensorV2(),
         ]
@@ -212,7 +212,7 @@ def main(args):
                 save_image_batch(
                     images, f"{index}_" + transform_name + "_" + phase, output_dir
                 )
-                if index == 5:
+                if index == 15:
                     break
 
     elif args.transform_type == "randomcrop224,morpho_erosion":
@@ -259,10 +259,10 @@ def main(args):
                 save_image_batch(
                     images, f"{index}_" + transform_name + "_" + phase, output_dir
                 )
-                if index == 5:
+                if index == 15:
                     break
     
-    elif args.transform_type == "randomcrop224,morpho_erosion,morpho_dilation,hflip":
+    elif args.transform_type == "randomcrop224,morpho_erosion,morpho_dilation":
 
         scales_erosion = [[3, 3], [5, 5], [7, 7], [9, 9], [11, 11], [13, 13], [15, 15]]
         scales_dilation = [[3, 3], [5, 5], [7, 7], [9, 9], [11, 11], [13, 13], [15, 15]]
@@ -310,7 +310,7 @@ def main(args):
                     save_image_batch(
                         images, f"{index}_" + transform_name + "_" + phase, output_dir
                     )
-                    if index == 5:
+                    if index == 15:
                         break
 
 
@@ -358,10 +358,10 @@ def main(args):
             save_image_batch(
                 images, f"{index}_" + transform_name + "_" + phase, output_dir
             )
-            if index == 5:
+            if index == 15:
                 break
 
-    elif args.transform_type == "randomcrop224,gaussianblur,gray":
+    elif args.transform_type == "randomcrop224,gaussianblur":
 
         blur_limits = [
             [3, 3],
@@ -415,7 +415,7 @@ def main(args):
                 save_image_batch(
                     images, f"{index}_" + transform_name + "_" + phase, output_dir
                 )
-                if index == 5:
+                if index == 15:
                     break
 
     elif args.transform_type == "randomcrop224,affine":
@@ -470,7 +470,7 @@ def main(args):
                             f"{index}_" + transform_name + "_" + phase,
                             output_dir,
                         )
-                        if index == 5:
+                        if index == 15:
                             break
 
     elif args.transform_type == "randomcrop224,colorjitter":
@@ -533,7 +533,7 @@ def main(args):
                                 f"{index}_" + transform_name + "_" + phase,
                                 output_dir,
                             )
-                            if index == 5:
+                            if index == 15:
                                 break
 
     else:

@@ -1,0 +1,286 @@
+2024-09-04 17:35:03,740 - INFO - Length of all data: 279
+2024-09-04 17:35:03,741 - INFO - Augumentation combination: 1
+2024-09-04 17:35:03,741 - INFO - Other augmentation 'randomcrop224,hflip,invert,gray' length: 77.20809181530001
+2024-09-04 17:35:03,741 - INFO - Augumentation combination: 2
+2024-09-04 17:35:03,741 - INFO - Other augmentation 'randomcrop224,hflip,gray' length: 77.37117012343334
+2024-09-04 17:35:03,741 - INFO - Augumentation combination: 3
+2024-09-04 17:35:03,741 - INFO - Other augmentation 'randomcrop224,invert' length: 78.91063690186667
+2024-09-04 17:35:03,741 - INFO - Augumentation combination: 4
+2024-09-04 17:35:03,741 - INFO - Other augmentation 'randomcrop224,morpho_erosion' length: 79.39335107800001
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 5
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,colorjitter,hflip' length: 78.38878234226665
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 6
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,morpho_erosion,morpho_dilation,gaussianblur' length: 79.49771881103332
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 7
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,morpho_erosion,gaussianblur,gray' length: 79.11937634153333
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 8
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,affine,colorjitter,invert' length: 79.68689203263334
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 9
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,hflip,gaussianblur,gray' length: 78.14090450603334
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 10
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,morpho_dilation,invert,gray' length: 78.78669500353334
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 11
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,morpho_dilation,colorjitter,hflip' length: 78.49315404893333
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 12
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,morpho_dilation,colorjitter,gray' length: 79.12590106326667
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 13
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,hflip,invert' length: 77.80169844626667
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 14
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,morpho_erosion,affine,invert' length: 79.22374804813334
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 15
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,morpho_dilation,hflip,gaussianblur' length: 78.2974580924
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 16
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,affine,invert' length: 78.89106671013333
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 17
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,morpho_dilation,affine,colorjitter' length: 79.88258600236666
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 18
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,affine,colorjitter,gaussianblur' length: 79.75212335586667
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 19
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,invert,gaussianblur,gray' length: 78.25179696083333
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 20
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,morpho_dilation,affine' length: 79.5368572076
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 21
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,morpho_erosion,colorjitter,invert' length: 78.57795556383333
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 22
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,morpho_erosion,morpho_dilation,colorjitter' length: 79.6673198541
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 23
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,morpho_dilation,hflip,invert' length: 77.68428325653333
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 24
+2024-09-04 17:35:03,742 - INFO - Other augmentation 'randomcrop224,affine,invert,gray' length: 78.6170939604
+2024-09-04 17:35:03,742 - INFO - Augumentation combination: 25
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,colorjitter,hflip,invert' length: 77.42335597676667
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 26
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,morpho_erosion,invert,gaussianblur' length: 78.85845104853333
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 27
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,morpho_erosion,hflip,gray' length: 78.17352016766667
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 28
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,affine,hflip,invert' length: 77.63209541636667
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 29
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,invert,gaussianblur' length: 78.70189547536667
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 30
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,colorjitter,hflip,gray' length: 77.97130147616666
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 31
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,colorjitter,invert,gaussianblur' length: 78.6040465037
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 32
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,affine,gaussianblur' length: 79.35421069466666
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 33
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,morpho_dilation,gray' length: 78.9954384168
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 34
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,morpho_dilation,colorjitter,invert' length: 78.4931540489
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 35
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,morpho_dilation' length: 78.66275707883334
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 36
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,morpho_dilation,gaussianblur,gray' length: 79.19765313466667
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 37
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,morpho_erosion,gaussianblur' length: 79.17808492976667
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 38
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,morpho_dilation,colorjitter,gaussianblur' length: 79.23679153126668
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 39
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224' length: 78.88454397516666
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 40
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,colorjitter,invert' length: 78.9954384168
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 41
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,morpho_erosion,morpho_dilation,affine' length: 79.94129459063333
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 42
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,morpho_erosion,gray' length: 78.99543841676666
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 43
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,morpho_erosion,morpho_dilation,gray' length: 79.17808492976667
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 44
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,morpho_dilation,affine,invert' length: 79.399873813
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 45
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,colorjitter,invert,gray' length: 77.70385146143333
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 46
+2024-09-04 17:35:03,743 - INFO - Other augmentation 'randomcrop224,colorjitter,gaussianblur' length: 79.62165872256666
+2024-09-04 17:35:03,743 - INFO - Augumentation combination: 47
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,morpho_erosion,invert' length: 79.20417785643333
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 48
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,morpho_dilation,colorjitter' length: 79.1976551215
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 49
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,affine,hflip,gaussianblur' length: 77.6190499465
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 50
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,colorjitter' length: 79.53033645946667
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 51
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,morpho_erosion,morpho_dilation' length: 79.38682635626667
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 52
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,morpho_erosion,affine,gray' length: 79.64122891423334
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 53
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,affine' length: 79.14546728133332
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 54
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,morpho_erosion,hflip,gaussianblur' length: 78.3692141374
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 55
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,morpho_erosion,affine' length: 79.18460766473333
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 56
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,morpho_dilation,invert' length: 78.79974246026666
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 57
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,gaussianblur,gray' length: 78.97586623826668
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 58
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,morpho_dilation,gaussianblur' length: 78.81278793016666
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 59
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,colorjitter,gray' length: 79.0606677532
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 60
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,colorjitter,hflip,gaussianblur' length: 78.57795556383333
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 61
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,affine,hflip' length: 77.52772768339999
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 62
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,morpho_erosion,colorjitter,gray' length: 79.03457482653333
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 63
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,affine,hflip,gray' length: 77.22766200703333
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 64
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,affine,gray' length: 79.02805209159999
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 65
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,morpho_erosion,affine,colorjitter' length: 79.84344760576666
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 66
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,morpho_erosion,hflip' length: 78.12785704933334
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 67
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,morpho_dilation,affine,gray' length: 79.51729098956666
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 68
+2024-09-04 17:35:03,744 - INFO - Other augmentation 'randomcrop224,morpho_dilation,invert,gaussianblur' length: 79.19765313466667
+2024-09-04 17:35:03,744 - INFO - Augumentation combination: 69
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,affine,colorjitter' length: 79.3933471044
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 70
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,morpho_erosion,affine,hflip' length: 77.55381862323333
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 71
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,affine,colorjitter,gray' length: 79.40639456113333
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 72
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,hflip' length: 78.0169626077
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 73
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,morpho_erosion,colorjitter' length: 79.65427438420001
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 74
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,colorjitter,gaussianblur,gray' length: 78.96934549016667
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 75
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,morpho_dilation,hflip' length: 78.0887166659
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 76
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,morpho_erosion,colorjitter,gaussianblur' length: 79.34768597286666
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 77
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,morpho_erosion,affine,gaussianblur' length: 79.4520596663
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 78
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,affine,invert,gaussianblur' length: 79.44553494456666
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 79
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,morpho_dilation,hflip,gray' length: 78.4996767839
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 80
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,morpho_erosion,morpho_dilation,invert' length: 79.06066775323333
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 81
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,morpho_dilation,affine,hflip' length: 77.54729588826667
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 82
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,morpho_erosion,morpho_dilation,hflip' length: 78.53229244546667
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 83
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,hflip,invert,gaussianblur' length: 77.71689891816666
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 84
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,affine,gaussianblur,gray' length: 79.1911303997
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 85
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,invert,gray' length: 77.86692976953333
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 86
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,gaussianblur' length: 79.36725815136667
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 87
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,morpho_dilation,affine,gaussianblur' length: 79.31507031119999
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 88
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,gray' length: 78.91715765
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 89
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,affine,colorjitter,hflip' length: 77.9582540194
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 90
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,hflip,gaussianblur' length: 77.9973944028
+2024-09-04 17:35:03,745 - INFO - Augumentation combination: 91
+2024-09-04 17:35:03,745 - INFO - Other augmentation 'randomcrop224,morpho_erosion,colorjitter,hflip' length: 78.30398281413333
+2024-09-04 17:35:03,746 - INFO - Augumentation combination: 92
+2024-09-04 17:35:03,746 - INFO - Other augmentation 'randomcrop224,morpho_erosion,invert,gray' length: 77.80169844626666
+2024-09-04 17:35:03,746 - INFO - Augumentation combination: 93
+2024-09-04 17:35:03,746 - INFO - Other augmentation 'randomcrop224,morpho_erosion,hflip,invert' length: 77.44944890336667
+2024-09-04 17:35:03,746 - INFO - 
+
+ -------------------------------- 
+
+
+2024-09-04 17:35:03,746 - INFO - Sorted Augmentations by Average Test Accuracy:
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_erosion,morpho_dilation,affine, Average Test Accuracy: 79.9413
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_dilation,affine,colorjitter, Average Test Accuracy: 79.8826
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_erosion,affine,colorjitter, Average Test Accuracy: 79.8434
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,affine,colorjitter,gaussianblur, Average Test Accuracy: 79.7521
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,affine,colorjitter,invert, Average Test Accuracy: 79.6869
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_erosion,morpho_dilation,colorjitter, Average Test Accuracy: 79.6673
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_erosion,colorjitter, Average Test Accuracy: 79.6543
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_erosion,affine,gray, Average Test Accuracy: 79.6412
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,colorjitter,gaussianblur, Average Test Accuracy: 79.6217
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_dilation,affine, Average Test Accuracy: 79.5369
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,colorjitter, Average Test Accuracy: 79.5303
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_dilation,affine,gray, Average Test Accuracy: 79.5173
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_erosion,morpho_dilation,gaussianblur, Average Test Accuracy: 79.4977
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_erosion,affine,gaussianblur, Average Test Accuracy: 79.4521
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,affine,invert,gaussianblur, Average Test Accuracy: 79.4455
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,affine,colorjitter,gray, Average Test Accuracy: 79.4064
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_dilation,affine,invert, Average Test Accuracy: 79.3999
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_erosion, Average Test Accuracy: 79.3934
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,affine,colorjitter, Average Test Accuracy: 79.3933
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_erosion,morpho_dilation, Average Test Accuracy: 79.3868
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,gaussianblur, Average Test Accuracy: 79.3673
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,affine,gaussianblur, Average Test Accuracy: 79.3542
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_erosion,colorjitter,gaussianblur, Average Test Accuracy: 79.3477
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_dilation,affine,gaussianblur, Average Test Accuracy: 79.3151
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_dilation,colorjitter,gaussianblur, Average Test Accuracy: 79.2368
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_erosion,affine,invert, Average Test Accuracy: 79.2237
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_erosion,invert, Average Test Accuracy: 79.2042
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_dilation,colorjitter, Average Test Accuracy: 79.1977
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_dilation,gaussianblur,gray, Average Test Accuracy: 79.1977
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_dilation,invert,gaussianblur, Average Test Accuracy: 79.1977
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,affine,gaussianblur,gray, Average Test Accuracy: 79.1911
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_erosion,affine, Average Test Accuracy: 79.1846
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_erosion,gaussianblur, Average Test Accuracy: 79.1781
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,morpho_erosion,morpho_dilation,gray, Average Test Accuracy: 79.1781
+2024-09-04 17:35:03,746 - INFO - Augmentation: randomcrop224,affine, Average Test Accuracy: 79.1455
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_dilation,colorjitter,gray, Average Test Accuracy: 79.1259
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_erosion,gaussianblur,gray, Average Test Accuracy: 79.1194
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_erosion,morpho_dilation,invert, Average Test Accuracy: 79.0607
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,colorjitter,gray, Average Test Accuracy: 79.0607
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_erosion,colorjitter,gray, Average Test Accuracy: 79.0346
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,affine,gray, Average Test Accuracy: 79.0281
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_dilation,gray, Average Test Accuracy: 78.9954
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,colorjitter,invert, Average Test Accuracy: 78.9954
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_erosion,gray, Average Test Accuracy: 78.9954
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,gaussianblur,gray, Average Test Accuracy: 78.9759
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,colorjitter,gaussianblur,gray, Average Test Accuracy: 78.9693
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,gray, Average Test Accuracy: 78.9172
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,invert, Average Test Accuracy: 78.9106
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,affine,invert, Average Test Accuracy: 78.8911
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224, Average Test Accuracy: 78.8845
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_erosion,invert,gaussianblur, Average Test Accuracy: 78.8585
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_dilation,gaussianblur, Average Test Accuracy: 78.8128
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_dilation,invert, Average Test Accuracy: 78.7997
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_dilation,invert,gray, Average Test Accuracy: 78.7867
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,invert,gaussianblur, Average Test Accuracy: 78.7019
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_dilation, Average Test Accuracy: 78.6628
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,affine,invert,gray, Average Test Accuracy: 78.6171
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,colorjitter,invert,gaussianblur, Average Test Accuracy: 78.6040
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_erosion,colorjitter,invert, Average Test Accuracy: 78.5780
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,colorjitter,hflip,gaussianblur, Average Test Accuracy: 78.5780
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_erosion,morpho_dilation,hflip, Average Test Accuracy: 78.5323
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_dilation,hflip,gray, Average Test Accuracy: 78.4997
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_dilation,colorjitter,hflip, Average Test Accuracy: 78.4932
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_dilation,colorjitter,invert, Average Test Accuracy: 78.4932
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,colorjitter,hflip, Average Test Accuracy: 78.3888
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_erosion,hflip,gaussianblur, Average Test Accuracy: 78.3692
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_erosion,colorjitter,hflip, Average Test Accuracy: 78.3040
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_dilation,hflip,gaussianblur, Average Test Accuracy: 78.2975
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,invert,gaussianblur,gray, Average Test Accuracy: 78.2518
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_erosion,hflip,gray, Average Test Accuracy: 78.1735
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,hflip,gaussianblur,gray, Average Test Accuracy: 78.1409
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_erosion,hflip, Average Test Accuracy: 78.1279
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,morpho_dilation,hflip, Average Test Accuracy: 78.0887
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,hflip, Average Test Accuracy: 78.0170
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,hflip,gaussianblur, Average Test Accuracy: 77.9974
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,colorjitter,hflip,gray, Average Test Accuracy: 77.9713
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,affine,colorjitter,hflip, Average Test Accuracy: 77.9583
+2024-09-04 17:35:03,747 - INFO - Augmentation: randomcrop224,invert,gray, Average Test Accuracy: 77.8669
+2024-09-04 17:35:03,748 - INFO - Augmentation: randomcrop224,hflip,invert, Average Test Accuracy: 77.8017
+2024-09-04 17:35:03,748 - INFO - Augmentation: randomcrop224,morpho_erosion,invert,gray, Average Test Accuracy: 77.8017
+2024-09-04 17:35:03,748 - INFO - Augmentation: randomcrop224,hflip,invert,gaussianblur, Average Test Accuracy: 77.7169
+2024-09-04 17:35:03,748 - INFO - Augmentation: randomcrop224,colorjitter,invert,gray, Average Test Accuracy: 77.7039
+2024-09-04 17:35:03,748 - INFO - Augmentation: randomcrop224,morpho_dilation,hflip,invert, Average Test Accuracy: 77.6843
+2024-09-04 17:35:03,748 - INFO - Augmentation: randomcrop224,affine,hflip,invert, Average Test Accuracy: 77.6321
+2024-09-04 17:35:03,748 - INFO - Augmentation: randomcrop224,affine,hflip,gaussianblur, Average Test Accuracy: 77.6190
+2024-09-04 17:35:03,748 - INFO - Augmentation: randomcrop224,morpho_erosion,affine,hflip, Average Test Accuracy: 77.5538
+2024-09-04 17:35:03,748 - INFO - Augmentation: randomcrop224,morpho_dilation,affine,hflip, Average Test Accuracy: 77.5473
+2024-09-04 17:35:03,748 - INFO - Augmentation: randomcrop224,affine,hflip, Average Test Accuracy: 77.5277
+2024-09-04 17:35:03,748 - INFO - Augmentation: randomcrop224,morpho_erosion,hflip,invert, Average Test Accuracy: 77.4494
+2024-09-04 17:35:03,748 - INFO - Augmentation: randomcrop224,colorjitter,hflip,invert, Average Test Accuracy: 77.4234
+2024-09-04 17:35:03,748 - INFO - Augmentation: randomcrop224,hflip,gray, Average Test Accuracy: 77.3712
+2024-09-04 17:35:03,748 - INFO - Augmentation: randomcrop224,affine,hflip,gray, Average Test Accuracy: 77.2277
+2024-09-04 17:35:03,748 - INFO - Augmentation: randomcrop224,hflip,invert,gray, Average Test Accuracy: 77.2081

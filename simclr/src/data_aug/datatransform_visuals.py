@@ -404,7 +404,7 @@ def main(args):
                 images, f"{index}_" + transform_name + "_" + phase, index, output_dir
             )
             #print("--------------Images are saving----------------")
-            if index == 5:
+            if index == 35:
                 break
 
     elif args.transform_type == "randomcrop198,morpho_erosion,morpho_dilation":

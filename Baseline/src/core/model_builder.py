@@ -153,6 +153,9 @@ def get_model(args, num_classes, logger):
 
     train_mode = args.mode
 
+
+    logger.info(args)
+
     if train_mode == "finetune":
         model_ft = ResNet(args.arch, num_classes=num_classes, use_pretrained=args.use_imagenet_pretrained_weights, args=args )
         logger.info(f"Model {model_ft} is instantiated!")
@@ -160,7 +163,7 @@ def get_model(args, num_classes, logger):
 
 
 
-    elif train_mode == "triplet_finetune_with_ce" or "finetune_with_ce":
+    elif train_mode == "triplet_finetune_with_ce" or train_mode == "finetune_with_ce":
         model_ft = ResNet(args.arch, num_classes=num_classes, use_pretrained=args.use_imagenet_pretrained_weights, args=args )
         logger.info(f"Model {model_ft} is instantiated!")
         logger.info(f"Loading imagenet pretrained weights: {args.use_imagenet_pretrained_weights}")

@@ -1,0 +1,298 @@
+2024-09-04 18:28:44,877 - INFO - Length of all data: 279
+2024-09-04 18:28:44,877 - INFO - Base augmentation accuracies : 
+ [79.3346405029, 78.7671267986, 78.551864624]
+2024-09-04 18:28:44,877 - INFO - Augumentation combination: 1
+2024-09-04 18:28:44,877 - INFO - Other augmentation 'randomcrop224,hflip,invert,gray' length: [76.9471645355, 77.55382061, 77.1232903004]
+2024-09-04 18:28:44,879 - INFO - Augumentation combination: 2
+2024-09-04 18:28:44,879 - INFO - Other augmentation 'randomcrop224,hflip,gray' length: [77.416831255, 77.4363994598, 77.2602796555]
+2024-09-04 18:28:44,880 - INFO - Augumentation combination: 3
+2024-09-04 18:28:44,880 - INFO - Other augmentation 'randomcrop224,invert' length: [78.6497116089, 78.5714328289, 79.5107662678]
+2024-09-04 18:28:44,882 - INFO - Augumentation combination: 4
+2024-09-04 18:28:44,882 - INFO - Other augmentation 'randomcrop224,morpho_erosion' length: [79.0998101234, 79.8825860023, 79.1976571083]
+2024-09-04 18:28:44,883 - INFO - Augumentation combination: 5
+2024-09-04 18:28:44,883 - INFO - Other augmentation 'randomcrop224,colorjitter,hflip' length: [78.1604707241, 78.2974600792, 78.7084162235]
+2024-09-04 18:28:44,884 - INFO - Augumentation combination: 6
+2024-09-04 18:28:44,884 - INFO - Other augmentation 'randomcrop224,morpho_erosion,morpho_dilation,gaussianblur' length: [79.7260284424, 79.0410995483, 79.7260284424]
+2024-09-04 18:28:44,886 - INFO - Augumentation combination: 7
+2024-09-04 18:28:44,886 - INFO - Other augmentation 'randomcrop224,morpho_erosion,gaussianblur,gray' length: [79.3737769127, 78.7475585938, 79.2367935181]
+2024-09-04 18:28:44,887 - INFO - Augumentation combination: 8
+2024-09-04 18:28:44,887 - INFO - Other augmentation 'randomcrop224,affine,colorjitter,invert' length: [79.5890450478, 79.8630177975, 79.6086132526]
+2024-09-04 18:28:44,888 - INFO - Augumentation combination: 9
+2024-09-04 18:28:44,888 - INFO - Other augmentation 'randomcrop224,hflip,gaussianblur,gray' length: [78.0039191246, 77.8473615646, 78.5714328289]
+2024-09-04 18:28:44,890 - INFO - Augumentation combination: 10
+2024-09-04 18:28:44,890 - INFO - Other augmentation 'randomcrop224,morpho_dilation,invert,gray' length: [78.3953070641, 78.7866950035, 79.178082943]
+2024-09-04 18:28:44,891 - INFO - Augumentation combination: 11
+2024-09-04 18:28:44,891 - INFO - Other augmentation 'randomcrop224,morpho_dilation,colorjitter,hflip' length: [79.0215313435, 78.1996130943, 78.258317709]
+2024-09-04 18:28:44,892 - INFO - Augumentation combination: 12
+2024-09-04 18:28:44,893 - INFO - Other augmentation 'randomcrop224,morpho_dilation,colorjitter,gray' length: [78.7475585938, 79.315072298, 79.315072298]
+2024-09-04 18:28:44,894 - INFO - Augumentation combination: 13
+2024-09-04 18:28:44,894 - INFO - Other augmentation 'randomcrop224,hflip,invert' length: [77.7103722095, 77.7495145798, 77.9452085495]
+2024-09-04 18:28:44,895 - INFO - Augumentation combination: 14
+2024-09-04 18:28:44,895 - INFO - Other augmentation 'randomcrop224,morpho_erosion,affine,invert' length: [79.178082943, 79.393351078, 79.0998101234]
+2024-09-04 18:28:44,896 - INFO - Augumentation combination: 15
+2024-09-04 18:28:44,897 - INFO - Other augmentation 'randomcrop224,morpho_dilation,hflip,gaussianblur' length: [78.3170282841, 77.9843449593, 78.5910010338]
+2024-09-04 18:28:44,898 - INFO - Augumentation combination: 16
+2024-09-04 18:28:44,898 - INFO - Other augmentation 'randomcrop224,affine,invert' length: [78.8649737835, 79.0410995483, 78.7671267986]
+2024-09-04 18:28:44,899 - INFO - Augumentation combination: 17
+2024-09-04 18:28:44,899 - INFO - Other augmentation 'randomcrop224,morpho_dilation,affine,colorjitter' length: [79.9804329872, 79.9412965775, 79.7260284424]
+2024-09-04 18:28:44,900 - INFO - Augumentation combination: 18
+2024-09-04 18:28:44,900 - INFO - Other augmentation 'randomcrop224,affine,colorjitter,gaussianblur' length: [80.0195753574, 79.4520556927, 79.7847390175]
+2024-09-04 18:28:44,902 - INFO - Augumentation combination: 19
+2024-09-04 18:28:44,902 - INFO - Other augmentation 'randomcrop224,invert,gaussianblur,gray' length: [78.8454055786, 77.9843449593, 77.9256403446]
+2024-09-04 18:28:44,903 - INFO - Augumentation combination: 20
+2024-09-04 18:28:44,903 - INFO - Other augmentation 'randomcrop224,morpho_dilation,affine' length: [79.3542087078, 79.5499026775, 79.7064602375]
+2024-09-04 18:28:44,904 - INFO - Augumentation combination: 21
+2024-09-04 18:28:44,904 - INFO - Other augmentation 'randomcrop224,morpho_erosion,colorjitter,invert' length: [77.9256403446, 79.0998101234, 78.7084162235]
+2024-09-04 18:28:44,906 - INFO - Augumentation combination: 22
+2024-09-04 18:28:44,906 - INFO - Other augmentation 'randomcrop224,morpho_erosion,morpho_dilation,colorjitter' length: [78.8062632084, 80.2739739418, 79.9217224121]
+2024-09-04 18:28:44,907 - INFO - Augumentation combination: 23
+2024-09-04 18:28:44,907 - INFO - Other augmentation 'randomcrop224,morpho_dilation,hflip,invert' length: [77.4755418301, 78.0234873295, 77.55382061]
+2024-09-04 18:28:44,908 - INFO - Augumentation combination: 24
+2024-09-04 18:28:44,908 - INFO - Other augmentation 'randomcrop224,affine,invert,gray' length: [79.0998101234, 78.0626237392, 78.6888480186]
+2024-09-04 18:28:44,910 - INFO - Augumentation combination: 25
+2024-09-04 18:28:44,910 - INFO - Other augmentation 'randomcrop224,colorjitter,hflip,invert' length: [77.4559736252, 77.3972630501, 77.416831255]
+2024-09-04 18:28:44,911 - INFO - Augumentation combination: 26
+2024-09-04 18:28:44,911 - INFO - Other augmentation 'randomcrop224,morpho_erosion,invert,gaussianblur' length: [78.8258373737, 78.5322904587, 79.2172253132]
+2024-09-04 18:28:44,912 - INFO - Augumentation combination: 27
+2024-09-04 18:28:44,913 - INFO - Other augmentation 'randomcrop224,morpho_erosion,hflip,gray' length: [77.7690827847, 78.551864624, 78.1996130943]
+2024-09-04 18:28:44,914 - INFO - Augumentation combination: 28
+2024-09-04 18:28:44,914 - INFO - Other augmentation 'randomcrop224,affine,hflip,invert' length: [77.5146782398, 77.4951100349, 77.8864979744]
+2024-09-04 18:28:44,915 - INFO - Augumentation combination: 29
+2024-09-04 18:28:44,915 - INFO - Other augmentation 'randomcrop224,invert,gaussianblur' length: [78.4931540489, 78.8454055786, 78.7671267986]
+2024-09-04 18:28:44,916 - INFO - Augumentation combination: 30
+2024-09-04 18:28:44,916 - INFO - Other augmentation 'randomcrop224,colorjitter,hflip,gray' length: [77.9060721397, 77.9647767544, 78.0430555344]
+2024-09-04 18:28:44,918 - INFO - Augumentation combination: 31
+2024-09-04 18:28:44,918 - INFO - Other augmentation 'randomcrop224,colorjitter,invert,gaussianblur' length: [78.5127222538, 78.5322904587, 78.7671267986]
+2024-09-04 18:28:44,919 - INFO - Augumentation combination: 32
+2024-09-04 18:28:44,919 - INFO - Other augmentation 'randomcrop224,affine,gaussianblur' length: [79.5107662678, 78.9628207684, 79.5890450478]
+2024-09-04 18:28:44,920 - INFO - Augumentation combination: 33
+2024-09-04 18:28:44,920 - INFO - Other augmentation 'randomcrop224,morpho_dilation,gray' length: [78.4931540489, 79.0215313435, 79.471629858]
+2024-09-04 18:28:44,922 - INFO - Augumentation combination: 34
+2024-09-04 18:28:44,922 - INFO - Other augmentation 'randomcrop224,morpho_dilation,colorjitter,invert' length: [78.2974600792, 78.4148752689, 78.7671267986]
+2024-09-04 18:28:44,923 - INFO - Augumentation combination: 35
+2024-09-04 18:28:44,923 - INFO - Other augmentation 'randomcrop224,morpho_dilation' length: [78.3757388592, 78.7475585938, 78.8649737835]
+2024-09-04 18:28:44,924 - INFO - Augumentation combination: 36
+2024-09-04 18:28:44,924 - INFO - Other augmentation 'randomcrop224,morpho_dilation,gaussianblur,gray' length: [79.0410995483, 79.178082943, 79.3737769127]
+2024-09-04 18:28:44,926 - INFO - Augumentation combination: 37
+2024-09-04 18:28:44,926 - INFO - Other augmentation 'randomcrop224,morpho_erosion,gaussianblur' length: [78.7671267986, 79.6086132526, 79.1585147381]
+2024-09-04 18:28:44,927 - INFO - Augumentation combination: 38
+2024-09-04 18:28:44,927 - INFO - Other augmentation 'randomcrop224,morpho_dilation,colorjitter,gaussianblur' length: [78.5322904587, 79.5303344727, 79.6477496624]
+2024-09-04 18:28:44,928 - INFO - Augumentation combination: 39
+2024-09-04 18:28:44,928 - INFO - Other augmentation 'randomcrop224,colorjitter,invert' length: [79.2955040932, 78.4931540489, 79.1976571083]
+2024-09-04 18:28:44,930 - INFO - Augumentation combination: 40
+2024-09-04 18:28:44,930 - INFO - Other augmentation 'randomcrop224,morpho_erosion,morpho_dilation,affine' length: [79.9804329872, 80.1565587521, 79.6868920326]
+2024-09-04 18:28:44,931 - INFO - Augumentation combination: 41
+2024-09-04 18:28:44,931 - INFO - Other augmentation 'randomcrop224,morpho_erosion,gray' length: [79.6673238277, 79.0410995483, 78.2778918743]
+2024-09-04 18:28:44,932 - INFO - Augumentation combination: 42
+2024-09-04 18:28:44,932 - INFO - Other augmentation 'randomcrop224,morpho_erosion,morpho_dilation,gray' length: [78.7866950035, 79.4324874878, 79.315072298]
+2024-09-04 18:28:44,934 - INFO - Augumentation combination: 43
+2024-09-04 18:28:44,934 - INFO - Other augmentation 'randomcrop224,morpho_dilation,affine,invert' length: [79.393351078, 79.0215313435, 79.7847390175]
+2024-09-04 18:28:44,935 - INFO - Augumentation combination: 44
+2024-09-04 18:28:44,935 - INFO - Other augmentation 'randomcrop224,colorjitter,invert,gray' length: [77.5342524052, 77.6908040047, 77.8864979744]
+2024-09-04 18:28:44,936 - INFO - Augumentation combination: 45
+2024-09-04 18:28:44,936 - INFO - Other augmentation 'randomcrop224,colorjitter,gaussianblur' length: [78.9823889732, 79.7847390175, 80.097848177]
+2024-09-04 18:28:44,938 - INFO - Augumentation combination: 46
+2024-09-04 18:28:44,938 - INFO - Other augmentation 'randomcrop224,morpho_erosion,invert' length: [79.6281814575, 78.8258373737, 79.1585147381]
+2024-09-04 18:28:44,939 - INFO - Augumentation combination: 47
+2024-09-04 18:28:44,939 - INFO - Other augmentation 'randomcrop224,morpho_dilation,colorjitter' length: [79.0019571781, 79.2955040932, 79.2955040932]
+2024-09-04 18:28:44,940 - INFO - Augumentation combination: 48
+2024-09-04 18:28:44,940 - INFO - Other augmentation 'randomcrop224,affine,hflip,gaussianblur' length: [77.338552475, 78.1800448895, 77.338552475]
+2024-09-04 18:28:44,942 - INFO - Augumentation combination: 49
+2024-09-04 18:28:44,942 - INFO - Other augmentation 'randomcrop224,colorjitter' length: [79.1976571083, 79.5694768429, 79.8238754272]
+2024-09-04 18:28:44,943 - INFO - Augumentation combination: 50
+2024-09-04 18:28:44,943 - INFO - Other augmentation 'randomcrop224,morpho_erosion,morpho_dilation' length: [79.2955040932, 79.6868920326, 79.178082943]
+2024-09-04 18:28:44,944 - INFO - Augumentation combination: 51
+2024-09-04 18:28:44,944 - INFO - Other augmentation 'randomcrop224,morpho_erosion,affine,gray' length: [79.6868920326, 79.6281814575, 79.6086132526]
+2024-09-04 18:28:44,946 - INFO - Augumentation combination: 52
+2024-09-04 18:28:44,946 - INFO - Other augmentation 'randomcrop224,affine' length: [79.0019571781, 79.2759299278, 79.1585147381]
+2024-09-04 18:28:44,947 - INFO - Augumentation combination: 53
+2024-09-04 18:28:44,947 - INFO - Other augmentation 'randomcrop224,morpho_erosion,hflip,gaussianblur' length: [78.1017661095, 78.4344434738, 78.5714328289]
+2024-09-04 18:28:44,948 - INFO - Augumentation combination: 54
+2024-09-04 18:28:44,948 - INFO - Other augmentation 'randomcrop224,morpho_erosion,affine' length: [79.2563617229, 78.9432525635, 79.3542087078]
+2024-09-04 18:28:44,950 - INFO - Augumentation combination: 55
+2024-09-04 18:28:44,950 - INFO - Other augmentation 'randomcrop224,morpho_dilation,invert' length: [78.7671267986, 78.6692798138, 78.9628207684]
+2024-09-04 18:28:44,951 - INFO - Augumentation combination: 56
+2024-09-04 18:28:44,951 - INFO - Other augmentation 'randomcrop224,gaussianblur,gray' length: [78.8649737835, 78.8062632084, 79.2563617229]
+2024-09-04 18:28:44,952 - INFO - Augumentation combination: 57
+2024-09-04 18:28:44,952 - INFO - Other augmentation 'randomcrop224,morpho_dilation,gaussianblur' length: [78.3757388592, 78.8062632084, 79.2563617229]
+2024-09-04 18:28:44,953 - INFO - Augumentation combination: 58
+2024-09-04 18:28:44,954 - INFO - Other augmentation 'randomcrop224,colorjitter,gray' length: [78.6301374435, 79.5694768429, 78.9823889732]
+2024-09-04 18:28:44,955 - INFO - Augumentation combination: 59
+2024-09-04 18:28:44,955 - INFO - Other augmentation 'randomcrop224,colorjitter,hflip,gaussianblur' length: [79.0410995483, 78.1409025192, 78.551864624]
+2024-09-04 18:28:44,956 - INFO - Augumentation combination: 60
+2024-09-04 18:28:44,956 - INFO - Other augmentation 'randomcrop224,affine,hflip' length: [77.1037220955, 78.0234873295, 77.4559736252]
+2024-09-04 18:28:44,957 - INFO - Augumentation combination: 61
+2024-09-04 18:28:44,957 - INFO - Other augmentation 'randomcrop224,morpho_erosion,colorjitter,gray' length: [78.6301374435, 79.315072298, 79.1585147381]
+2024-09-04 18:28:44,959 - INFO - Augumentation combination: 62
+2024-09-04 18:28:44,959 - INFO - Other augmentation 'randomcrop224,affine,hflip,gray' length: [77.0841538906, 77.1820008755, 77.416831255]
+2024-09-04 18:28:44,960 - INFO - Augumentation combination: 63
+2024-09-04 18:28:44,960 - INFO - Other augmentation 'randomcrop224,affine,gray' length: [79.3737769127, 78.7866950035, 78.9236843586]
+2024-09-04 18:28:44,961 - INFO - Augumentation combination: 64
+2024-09-04 18:28:44,961 - INFO - Other augmentation 'randomcrop224,morpho_erosion,affine,colorjitter' length: [79.6673238277, 80.1565587521, 79.7064602375]
+2024-09-04 18:28:44,963 - INFO - Augumentation combination: 65
+2024-09-04 18:28:44,963 - INFO - Other augmentation 'randomcrop224,morpho_erosion,hflip' length: [78.5127222538, 77.8277933598, 78.0430555344]
+2024-09-04 18:28:44,964 - INFO - Augumentation combination: 66
+2024-09-04 18:28:44,964 - INFO - Other augmentation 'randomcrop224,morpho_dilation,affine,gray' length: [79.2955040932, 79.4911980629, 79.7651708126]
+2024-09-04 18:28:44,965 - INFO - Augumentation combination: 67
+2024-09-04 18:28:44,965 - INFO - Other augmentation 'randomcrop224,morpho_dilation,invert,gaussianblur' length: [79.0019571781, 79.1585147381, 79.4324874878]
+2024-09-04 18:28:44,967 - INFO - Augumentation combination: 68
+2024-09-04 18:28:44,967 - INFO - Other augmentation 'randomcrop224,affine,colorjitter' length: [79.3737769127, 79.3542087078, 79.4520556927]
+2024-09-04 18:28:44,968 - INFO - Augumentation combination: 69
+2024-09-04 18:28:44,968 - INFO - Other augmentation 'randomcrop224,morpho_erosion,affine,hflip' length: [77.3972630501, 77.8082191944, 77.4559736252]
+2024-09-04 18:28:44,969 - INFO - Augumentation combination: 70
+2024-09-04 18:28:44,969 - INFO - Other augmentation 'randomcrop224,affine,colorjitter,gray' length: [80.0000011921, 79.6086132526, 78.6105692387]
+2024-09-04 18:28:44,971 - INFO - Augumentation combination: 71
+2024-09-04 18:28:44,971 - INFO - Other augmentation 'randomcrop224,hflip' length: [77.7690827847, 78.1409025192, 78.1409025192]
+2024-09-04 18:28:44,972 - INFO - Augumentation combination: 72
+2024-09-04 18:28:44,972 - INFO - Other augmentation 'randomcrop224,morpho_erosion,colorjitter' length: [78.9041101933, 80.6457936764, 79.4129192829]
+2024-09-04 18:28:44,973 - INFO - Augumentation combination: 73
+2024-09-04 18:28:44,973 - INFO - Other augmentation 'randomcrop224,colorjitter,gaussianblur,gray' length: [78.6692798138, 79.0215313435, 79.2172253132]
+2024-09-04 18:28:44,975 - INFO - Augumentation combination: 74
+2024-09-04 18:28:44,975 - INFO - Other augmentation 'randomcrop224,morpho_dilation,hflip' length: [78.7279844284, 77.8082191944, 77.7299463749]
+2024-09-04 18:28:44,976 - INFO - Augumentation combination: 75
+2024-09-04 18:28:44,976 - INFO - Other augmentation 'randomcrop224,morpho_erosion,colorjitter,gaussianblur' length: [79.7260284424, 79.1389465332, 79.178082943]
+2024-09-04 18:28:44,977 - INFO - Augumentation combination: 76
+2024-09-04 18:28:44,977 - INFO - Other augmentation 'randomcrop224,morpho_erosion,affine,gaussianblur' length: [79.4911980629, 79.1976571083, 79.6673238277]
+2024-09-04 18:28:44,979 - INFO - Augumentation combination: 77
+2024-09-04 18:28:44,979 - INFO - Other augmentation 'randomcrop224,affine,invert,gaussianblur' length: [79.2367935181, 79.1585147381, 79.9412965775]
+2024-09-04 18:28:44,980 - INFO - Augumentation combination: 78
+2024-09-04 18:28:44,980 - INFO - Other augmentation 'randomcrop224,morpho_dilation,hflip,gray' length: [78.2778918743, 78.6105692387, 78.6105692387]
+2024-09-04 18:28:44,981 - INFO - Augumentation combination: 79
+2024-09-04 18:28:44,981 - INFO - Other augmentation 'randomcrop224,morpho_erosion,morpho_dilation,invert' length: [79.2367935181, 79.0410995483, 78.9041101933]
+2024-09-04 18:28:44,983 - INFO - Augumentation combination: 80
+2024-09-04 18:28:44,983 - INFO - Other augmentation 'randomcrop224,morpho_dilation,affine,hflip' length: [77.3972630501, 77.1820008755, 78.0626237392]
+2024-09-04 18:28:44,984 - INFO - Augumentation combination: 81
+2024-09-04 18:28:44,984 - INFO - Other augmentation 'randomcrop224,morpho_erosion,morpho_dilation,hflip' length: [78.0626237392, 79.0410995483, 78.4931540489]
+2024-09-04 18:28:44,985 - INFO - Augumentation combination: 82
+2024-09-04 18:28:44,985 - INFO - Other augmentation 'randomcrop224,hflip,invert,gaussianblur' length: [77.2798478603, 77.7690827847, 78.1017661095]
+2024-09-04 18:28:44,987 - INFO - Augumentation combination: 83
+2024-09-04 18:28:44,987 - INFO - Other augmentation 'randomcrop224,affine,gaussianblur,gray' length: [78.9823889732, 79.4129192829, 79.178082943]
+2024-09-04 18:28:44,988 - INFO - Augumentation combination: 84
+2024-09-04 18:28:44,988 - INFO - Other augmentation 'randomcrop224,invert,gray' length: [77.5342524052, 77.6125252247, 78.4540116787]
+2024-09-04 18:28:44,989 - INFO - Augumentation combination: 85
+2024-09-04 18:28:44,989 - INFO - Other augmentation 'randomcrop224,gaussianblur' length: [79.4129192829, 78.9432525635, 79.7456026077]
+2024-09-04 18:28:44,991 - INFO - Augumentation combination: 86
+2024-09-04 18:28:44,991 - INFO - Other augmentation 'randomcrop224,morpho_dilation,affine,gaussianblur' length: [79.9021542072, 78.7084162235, 79.3346405029]
+2024-09-04 18:28:44,992 - INFO - Augumentation combination: 87
+2024-09-04 18:28:44,992 - INFO - Other augmentation 'randomcrop224,gray' length: [78.8062632084, 78.9041101933, 79.0410995483]
+2024-09-04 18:28:44,993 - INFO - Augumentation combination: 88
+2024-09-04 18:28:44,993 - INFO - Other augmentation 'randomcrop224,affine,colorjitter,hflip' length: [77.8669297695, 78.0626237392, 77.9452085495]
+2024-09-04 18:28:44,995 - INFO - Augumentation combination: 89
+2024-09-04 18:28:44,995 - INFO - Other augmentation 'randomcrop224,hflip,gaussianblur' length: [77.5733888149, 78.2778918743, 78.1409025192]
+2024-09-04 18:28:44,996 - INFO - Augumentation combination: 90
+2024-09-04 18:28:44,996 - INFO - Other augmentation 'randomcrop224,morpho_erosion,colorjitter,hflip' length: [78.2974600792, 78.4148752689, 78.1996130943]
+2024-09-04 18:28:44,997 - INFO - Augumentation combination: 91
+2024-09-04 18:28:44,997 - INFO - Other augmentation 'randomcrop224,morpho_erosion,invert,gray' length: [77.2407054901, 77.9647767544, 78.1996130943]
+2024-09-04 18:28:44,999 - INFO - Augumentation combination: 92
+2024-09-04 18:28:44,999 - INFO - Other augmentation 'randomcrop224,morpho_erosion,hflip,invert' length: [77.2798478603, 77.9256403446, 77.1428585052]
+2024-09-04 18:28:45,000 - INFO - Results of the one-sided t-tests (base > other):
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,hflip,invert,gray): Statistic=-4.6451700061489465, p-value=0.9783235672619077, Avg Acc Diff=1.6764521598666562
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,hflip,gray): Statistic=-7.472228100941321, p-value=0.9912785313219467, Avg Acc Diff=1.51337385173332
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,invert): Statistic=0.05354393140506466, p-value=0.48108291524682717, Avg Acc Diff=-0.026092926700002295
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion): Statistic=1.2856232976601678, p-value=0.1636672405239324, Avg Acc Diff=-0.5088071028333445
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,colorjitter,hflip): Statistic=-1.2898109035681447, p-value=0.8369312568307112, Avg Acc Diff=0.4957616329000132
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,morpho_dilation,gaussianblur): Statistic=2.1702615924305717, p-value=0.08109100677139058, Avg Acc Diff=-0.6131748358666584
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,gaussianblur,gray): Statistic=1.0405296469778054, p-value=0.20368154898695146, Avg Acc Diff=-0.2348323663666605
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,affine,colorjitter,invert): Statistic=2.926091890666019, p-value=0.04982165466394405, Avg Acc Diff=-0.8023480574666735
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,hflip,gaussianblur,gray): Statistic=-1.860871797523397, p-value=0.898086147182795, Avg Acc Diff=0.7436394691333277
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,invert,gray): Statistic=-0.2147067136895463, p-value=0.5750502788672447, Avg Acc Diff=0.09784897163332573
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,colorjitter,hflip): Statistic=-4.435376714017022, p-value=0.9763710309831968, Avg Acc Diff=0.39138992623333024
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,colorjitter,gray): Statistic=0.5762310329433293, p-value=0.3113319133964011, Avg Acc Diff=-0.24135708810000267
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,hflip,invert): Statistic=-3.663651672640556, p-value=0.9664541840681765, Avg Acc Diff=1.0828455288999947
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,affine,invert): Statistic=1.362765156567678, p-value=0.15305634411489671, Avg Acc Diff=-0.3392040729666803
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,hflip,gaussianblur): Statistic=-1.8325504587058206, p-value=0.8958355694398084, Avg Acc Diff=0.5870858827666581
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,affine,invert): Statistic=0.027326401532153512, p-value=0.49034046118952185, Avg Acc Diff=-0.0065227349666656664
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,affine,colorjitter): Statistic=5.66667606683437, p-value=0.014879329111384168, Avg Acc Diff=-0.9980420272000003
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,affine,colorjitter,gaussianblur): Statistic=4.750020395906717, p-value=0.020788223764899718, Avg Acc Diff=-0.8675793807000076
+2024-09-04 18:28:45,000 - INFO - Augmentation (Transform: randomcrop224,invert,gaussianblur,gray): Statistic=-7.461425338766125, p-value=0.9912539181402515, Avg Acc Diff=0.6327470143333329
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,affine): Statistic=1.952540168945548, p-value=0.09505900589765874, Avg Acc Diff=-0.652313232433329
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,colorjitter,invert): Statistic=-0.5538626267133079, p-value=0.6823351928699182, Avg Acc Diff=0.3065884113333368
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,morpho_dilation,colorjitter): Statistic=1.1918601557870674, p-value=0.1777829154316778, Avg Acc Diff=-0.7827758789333359
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,hflip,invert): Statistic=-3.556264284314116, p-value=0.964610969755833, Avg Acc Diff=1.2002607186333307
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,affine,invert,gray): Statistic=-1.098523665039772, p-value=0.8067231689453402, Avg Acc Diff=0.2674500147666663
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,colorjitter,hflip,invert): Statistic=-6.657767287478395, p-value=0.989087817721658, Avg Acc Diff=1.4611879983999927
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,invert,gaussianblur): Statistic=-0.07357221258233691, p-value=0.5259765770023258, Avg Acc Diff=0.026092926633339175
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,hflip,gray): Statistic=-1.6570385350001082, p-value=0.8803198230777262, Avg Acc Diff=0.7110238074999984
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,affine,hflip,invert): Statistic=-3.756069147231059, p-value=0.9679312236319368, Avg Acc Diff=1.2524485587999976
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,invert,gaussianblur): Statistic=-0.5505043831045928, p-value=0.6813755003646444, Avg Acc Diff=0.18264849979999553
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,colorjitter,hflip,gray): Statistic=-3.3669265124971886, p-value=0.960985948044327, Avg Acc Diff=0.9132424990000061
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,colorjitter,invert,gaussianblur): Statistic=-0.9341278817386665, p-value=0.7755745753625543, Avg Acc Diff=0.28049747146665993
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,affine,gaussianblur): Statistic=1.6548452602627446, p-value=0.119892565469044, Avg Acc Diff=-0.4696667194999975
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,gray): Statistic=0.21597146490254782, p-value=0.42451767658142386, Avg Acc Diff=-0.1108944416333344
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,colorjitter,invert): Statistic=-1.0809539841494904, p-value=0.8036358119969222, Avg Acc Diff=0.3913899262666689
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation): Statistic=-0.5823256952250322, p-value=0.6903755912905905, Avg Acc Diff=0.22178689633332738
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,gaussianblur,gray): Statistic=0.9613451773770693, p-value=0.21890898272588466, Avg Acc Diff=-0.3131091595000015
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,gaussianblur): Statistic=0.6735187245642029, p-value=0.2850114326645345, Avg Acc Diff=-0.2935409546000045
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,colorjitter,gaussianblur): Statistic=0.6018936434459093, p-value=0.3041946985698317, Avg Acc Diff=-0.3522475561000107
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,colorjitter,invert): Statistic=0.40192693483039055, p-value=0.36331056494276326, Avg Acc Diff=-0.1108944416333344
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,morpho_dilation,affine): Statistic=4.8428394547286615, p-value=0.020045811855588458, Avg Acc Diff=-1.0567506154666688
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,gray): Statistic=0.5740516741775058, p-value=0.31194436906082545, Avg Acc Diff=-0.11089444159999573
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,morpho_dilation,gray): Statistic=0.6961055610320064, p-value=0.2791893048108931, Avg Acc Diff=-0.2935409546000045
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,affine,invert): Statistic=1.418888450609208, p-value=0.14586369475197247, Avg Acc Diff=-0.5153298378333346
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,colorjitter,invert,gray): Statistic=-3.558637756541581, p-value=0.9646532741170086, Avg Acc Diff=1.1806925137333337
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,colorjitter,gaussianblur): Statistic=1.303160286966418, p-value=0.16117841157570595, Avg Acc Diff=-0.7371147473999997
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,invert): Statistic=2.0139029462280513, p-value=0.09081227438160305, Avg Acc Diff=-0.31963388126666814
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,colorjitter): Statistic=0.9522199114697516, p-value=0.2207421067566469, Avg Acc Diff=-0.31311114633334114
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,affine,hflip,gaussianblur): Statistic=-3.1048897831255786, p-value=0.9550229997461089, Avg Acc Diff=1.2654940286666658
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,colorjitter): Statistic=1.5591109032535986, p-value=0.12965658611349715, Avg Acc Diff=-0.6457924843000029
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,morpho_dilation): Statistic=1.7707044367436915, p-value=0.10931279656375016, Avg Acc Diff=-0.5022823811000023
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,affine,gray): Statistic=3.603958782418007, p-value=0.03455275961731816, Avg Acc Diff=-0.7566849390666732
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,affine): Statistic=0.8751576873459511, p-value=0.23688960754748034, Avg Acc Diff=-0.26092330616666004
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,hflip,gaussianblur): Statistic=-1.3819357693868182, p-value=0.8494488086839769, Avg Acc Diff=0.5153298377666715
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,affine): Statistic=1.1467785126894556, p-value=0.18507932629398594, Avg Acc Diff=-0.3000636895666702
+2024-09-04 18:28:45,001 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,invert): Statistic=-0.30014493517026514, p-value=0.6038051363859722, Avg Acc Diff=0.08480151490000765
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,gaussianblur,gray): Statistic=0.2686306452291072, p-value=0.40669312110402484, Avg Acc Diff=-0.09132226310001101
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,gaussianblur): Statistic=-0.14844877707916387, p-value=0.5521977851215034, Avg Acc Diff=0.07175604500000077
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,colorjitter,gray): Statistic=0.3886161426644993, p-value=0.36751449550903337, Avg Acc Diff=-0.1761237780333289
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,colorjitter,hflip,gaussianblur): Statistic=-1.6948600701735415, p-value=0.8839066817968712, Avg Acc Diff=0.3065884113333368
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,affine,hflip): Statistic=-3.0237175355889008, p-value=0.952910860746758, Avg Acc Diff=1.3568162917666768
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,colorjitter,gray): Statistic=0.3508649089478576, p-value=0.37960066673304477, Avg Acc Diff=-0.15003085136666527
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,affine,hflip,gray): Statistic=-5.113892651263567, p-value=0.9819120336748177, Avg Acc Diff=1.6568819681333338
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,affine,gray): Statistic=1.2555886541198542, p-value=0.16803820969116134, Avg Acc Diff=-0.14350811643332406
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,affine,colorjitter): Statistic=2.9931610825985584, p-value=0.04792096438133155, Avg Acc Diff=-0.9589036305999912
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,hflip): Statistic=-5.8890661016585275, p-value=0.9861779528658, Avg Acc Diff=0.7566869258333213
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,affine,gray): Statistic=1.7363073166258658, p-value=0.11232179229978365, Avg Acc Diff=-0.632747014399996
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,invert,gaussianblur): Statistic=0.8884258583550665, p-value=0.23402333140659293, Avg Acc Diff=-0.3131091595000015
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,affine,colorjitter): Statistic=2.022047590593985, p-value=0.09026795747288062, Avg Acc Diff=-0.5088031292333284
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,affine,hflip): Statistic=-4.350299872919399, p-value=0.9755052700519325, Avg Acc Diff=1.3307253519333386
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,affine,colorjitter,gray): Statistic=2.201077040975233, p-value=0.07934431202563756, Avg Acc Diff=-0.5218505859666607
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,hflip): Statistic=-2.447494133088854, p-value=0.9329244266762734, Avg Acc Diff=0.8675813674666699
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,colorjitter): Statistic=1.151998049826228, p-value=0.18421692223110714, Avg Acc Diff=-0.7697304090333432
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,colorjitter,gaussianblur,gray): Statistic=0.2155633087355591, p-value=0.42465708565724086, Avg Acc Diff=-0.08480151500000943
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,hflip): Statistic=-7.762680463034287, p-value=0.9919035062045968, Avg Acc Diff=0.7958273092666701
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,colorjitter,gaussianblur): Statistic=5.66648237326538, p-value=0.014880301389094902, Avg Acc Diff=-0.4631419976999922
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,affine,gaussianblur): Statistic=1.990173346967346, p-value=0.09242362632098534, Avg Acc Diff=-0.5675156911333374
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,affine,invert,gaussianblur): Statistic=1.2818691105134736, p-value=0.1642060474468472, Avg Acc Diff=-0.5609909693999953
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,hflip,gray): Statistic=-1.1265296397292306, p-value=0.8115305067425552, Avg Acc Diff=0.3848671912666646
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,morpho_dilation,invert): Statistic=1.268570567019556, p-value=0.16613194116664326, Avg Acc Diff=-0.17612377806666757
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,affine,hflip): Statistic=-3.066896039964863, p-value=0.9540515954512342, Avg Acc Diff=1.33724808689999
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,morpho_dilation,hflip): Statistic=-0.7497850247958845, p-value=0.7342082304933766, Avg Acc Diff=0.3522515296999984
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,hflip,invert,gaussianblur): Statistic=-2.479428275872751, p-value=0.934317819618892, Avg Acc Diff=1.1676450570000014
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,affine,gaussianblur,gray): Statistic=0.9305515231498622, p-value=0.22516127063919145, Avg Acc Diff=-0.30658642453333584
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,invert,gray): Statistic=-2.0506933918734505, p-value=0.9116118096214793, Avg Acc Diff=1.0176142056333362
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,gaussianblur): Statistic=1.353534905946073, p-value=0.15428080033480085, Avg Acc Diff=-0.48271417620000534
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,affine,gaussianblur): Statistic=1.705811836199029, p-value=0.11508087351586349, Avg Acc Diff=-0.43052633603332424
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,gray): Statistic=0.10931034860741076, p-value=0.4614678868868132, Avg Acc Diff=-0.03261367483332833
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,affine,colorjitter,hflip): Statistic=-3.403225684107569, p-value=0.9617211512802609, Avg Acc Diff=0.9262899557666628
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,hflip,gaussianblur): Statistic=-2.027146060560109, p-value=0.9100705383261908, Avg Acc Diff=0.8871495723666669
+2024-09-04 18:28:45,002 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,colorjitter,hflip): Statistic=-2.5428675857555234, p-value=0.9369684842251694, Avg Acc Diff=0.5805611610333301
+2024-09-04 18:28:45,003 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,invert,gray): Statistic=-2.0745161718643725, p-value=0.9131349228685558, Avg Acc Diff=1.082845528900009
+2024-09-04 18:28:45,003 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,hflip,invert): Statistic=-4.094490773345478, p-value=0.9726038968136784, Avg Acc Diff=1.4350950717999922
+2024-09-04 18:28:45,003 - INFO - 
+----------------------------------------------------------------
+
+2024-09-04 18:28:45,003 - INFO - -------------------------Top 4 Augmentations----------------
+
+2024-09-04 18:28:45,003 - INFO - Augmentation (Transform: randomcrop224,hflip,invert,gray): Statistic=-4.6451700061489465, p-value=0.9783235672619077, Avg Acc Diff=1.6764521598666562
+2024-09-04 18:28:45,003 - INFO - Augmentation (Transform: randomcrop224,affine,hflip,gray): Statistic=-5.113892651263567, p-value=0.9819120336748177, Avg Acc Diff=1.6568819681333338
+2024-09-04 18:28:45,003 - INFO - Augmentation (Transform: randomcrop224,hflip,gray): Statistic=-7.472228100941321, p-value=0.9912785313219467, Avg Acc Diff=1.51337385173332
+2024-09-04 18:28:45,003 - INFO - Augmentation (Transform: randomcrop224,colorjitter,hflip,invert): Statistic=-6.657767287478395, p-value=0.989087817721658, Avg Acc Diff=1.4611879983999927
+2024-09-04 18:28:45,003 - INFO - 
+Some augmentations perform significantly better than the base augmentation:
+2024-09-04 18:28:45,003 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,colorjitter,gaussianblur): Statistic=5.66648237326538, p-value=0.014880301389094902, Avg Acc Diff=-0.4631419976999922
+2024-09-04 18:28:45,003 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,affine,gray): Statistic=3.603958782418007, p-value=0.03455275961731816, Avg Acc Diff=-0.7566849390666732
+2024-09-04 18:28:45,003 - INFO - Augmentation (Transform: randomcrop224,affine,colorjitter,invert): Statistic=2.926091890666019, p-value=0.04982165466394405, Avg Acc Diff=-0.8023480574666735
+2024-09-04 18:28:45,003 - INFO - Augmentation (Transform: randomcrop224,affine,colorjitter,gaussianblur): Statistic=4.750020395906717, p-value=0.020788223764899718, Avg Acc Diff=-0.8675793807000076
+2024-09-04 18:28:45,003 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,affine,colorjitter): Statistic=2.9931610825985584, p-value=0.04792096438133155, Avg Acc Diff=-0.9589036305999912
+2024-09-04 18:28:45,003 - INFO - Augmentation (Transform: randomcrop224,morpho_dilation,affine,colorjitter): Statistic=5.66667606683437, p-value=0.014879329111384168, Avg Acc Diff=-0.9980420272000003
+2024-09-04 18:28:45,003 - INFO - Augmentation (Transform: randomcrop224,morpho_erosion,morpho_dilation,affine): Statistic=4.8428394547286615, p-value=0.020045811855588458, Avg Acc Diff=-1.0567506154666688

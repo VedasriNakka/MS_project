@@ -2,9 +2,12 @@ transform_type:
   type: grid
   choices: [
     "randomcrop198,affine,colorjitter,gaussianblur",
-    "randomcrop198,affine,colorjitter,gray",
     "randomcrop198,morpho_dilation,affine,colorjitter",
     "randomcrop198,morpho_erosion,morpho_dilation,affine",
+    "randomcrop198,morpho_erosion,affine,colorjitter",
+    
+    #"randomcrop198,affine,colorjitter,gray",
+
     # "randomcrop198,morpho_dilation,affine,gaussianblur"
     # "randomcrop198,morpho_erosion,colorjitter,gaussianblur"
     # "randomcrop198,morpho_erosion,morpho_dilation,gaussianblur"
