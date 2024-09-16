@@ -48,6 +48,11 @@ simclr/
 
 ## Usage
 
+We have used 93 augmentations for without pretraining on Alpub dataset (on ResNet18, resNet50 architectures). Those are available in file
+```
+./Baseline_V2/scripts/search_space/search_space_subset_93_demo.yaml
+````
+
 To train the `Baseline model`, please run the following command:
 
 ```
@@ -229,6 +234,14 @@ python .simclr/src/data_aug/datatransform_visuals.py --transform_type randomcrop
 
 We have devided results into 2 parts. One is `Without pre-training on Alpub`, second `With pre-training on Alpub`
 
-- After training for `10` epochs, we obtain a training accuracy of `79.42%`, Validation accuracy of `76.38%` and Test accuracy of `75.49%`.
+### Results on ResNet-18 without pretraining on Alpub dataset
+
+We report the best-found augmentation and their corresponding validation and test set accuracies by directly fine-tuning on ICDAR. We observe that the baseline model achieves better results compared to the other two methods.
+
+| **Experiment**    | **Dataset** | **Best Augmentation**                                         | **Valid Acc.** | **Test Acc.** |
+|-------------------|-------------|---------------------------------------------------------------|----------------|---------------|
+| Baseline model    | ICDAR       | `randomcrop224,morpho_erosion,morpho_dilation,gaussianblur` | 81.19%         | **80.67%**    |
+| Triplet model     | ICDAR       | `randomcrop224,morpho_dilation,affine,colorjitter`          | 80.11%         | 79.16%        |
+| SimCLR model      | ICDAR       | `randomcrop224,affine,colorjitter,gray`                     | 80.33%         | 80.00%        |
 
 
