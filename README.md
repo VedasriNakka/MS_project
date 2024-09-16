@@ -241,9 +241,9 @@ We report the best-found augmentation and their corresponding validation and tes
 
 | **Experiment**    | **Dataset** | **Best Augmentation**                                         | **Valid Acc.** | **Test Acc.** |
 |-------------------|-------------|---------------------------------------------------------------|----------------|---------------|
-| Baseline model    | ICDAR       | `randomcrop224,morpho_erosion,morpho_dilation,gaussianblur` | 81.19%         | **80.67%**    |
-| Triplet model     | ICDAR       | `randomcrop224,morpho_dilation,affine,colorjitter`          | 80.11%         | 79.16%        |
-| SimCLR model      | ICDAR       | `randomcrop224,affine,colorjitter,gray`                     | 80.33%         | 80.00%        |
+| Baseline model    | ICDAR       | randomcrop224,morpho_erosion,morpho_dilation,gaussianblur | 81.19%         | **80.67%**    |
+| Triplet model     | ICDAR       | randomcrop224,morpho_dilation,affine,colorjitter          | 80.11%         | 79.16%        |
+| SimCLR model      | ICDAR       | randomcrop224,affine,colorjitter,gray                     | 80.33%         | 80.00%        |
 
 ### Results on ResNet-50 without pretraining on Alpub dataset
 
@@ -251,9 +251,9 @@ We report the best-found augmentation and their corresponding validation and tes
 
 | **Experiment**    | **Dataset** | **Best Augmentation**                                  | **Valid Acc.** | **Test Acc.** |
 |-------------------|-------------|-------------------------------------------------------|----------------|---------------|
-| Baseline model    | ICDAR       | `randomcrop224,morpho_erosion,gaussianblur`          | 80.70%         | **80.47%**    |
-| Triplet model     | ICDAR       | `randomcrop224,morpho_erosion,morpho_dilation,gaussianblur` | 79.29%         | 78.22%        |
-| SimCLR model      | ICDAR       | `randomcrop224,colorjitter,gaussianblur`             | 80.05%         | 79.24%        |
+| Baseline model    | ICDAR       | randomcrop224,morpho_erosion,gaussianblur          | 80.70%         | **80.47%**    |
+| Triplet model     | ICDAR       | randomcrop224,morpho_erosion,morpho_dilation,gaussianblur | 79.29%         | 78.22%        |
+| SimCLR model      | ICDAR       | randomcrop224,colorjitter,gaussianblur             | 80.05%         | 79.24%        |
 
 ### Without Pre-training on Alpub:
 Here’s a revised version of your text:
@@ -282,18 +282,18 @@ We report the best-found augmentation and their corresponding validation and tes
 
 | **Experiment**    | **Dataset**          | **Best Augmentation**                              | **Valid Acc.** | **Test Acc.** |
 |-------------------|----------------------|---------------------------------------------------|----------------|---------------|
-| Baseline model    | Alpub + ICDAR         | `randomcrop224, hflip, gray`                      | 80.49%         | **79.94%**    |
-| Triplet model     | Alpub + ICDAR         | `randomcrop224, morpho_dilation, hflip`           | 78.19%         | 77.51%        |
-| SimCLR model      | Alpub + ICDAR         | `randomcrop224, colorjitter, hflip, invert`       | 77.55%         | 76.14%        |
+| Baseline model    | Alpub + ICDAR         | randomcrop224,hflip,gray                      | 80.49%         | **79.94%**    |
+| Triplet model     | Alpub + ICDAR         | randomcrop224,morpho_dilation,hflip           | 78.19%         | 77.51%        |
+| SimCLR model      | Alpub + ICDAR         | randomcrop224,colorjitter,hflip,invert       | 77.55%         | 76.14%        |
 
 #### Results on ResNet-50 with pretraining on Alpub dataset (with top-4 selected using strategy 1):
  We report the best found augmentation and their corresponding validation and test set accuracies. We observe the baseline model achieves the best results compared to the other two methods.
 
 | **Experiment** | **Dataset**          | **Best augmentation**                               | **Valid Acc.** | **Test Acc.** |
 |----------------|-----------------------|-----------------------------------------------------|----------------|---------------|
-| Baseline model | `Alpub + ICDAR`       | `randomcrop224, morpho_dilation, hflip`             | 80.21%         | **79.75%**    |
-| Triplet model  | `Alpub + ICDAR`       | `randomcrop224, invert, gaussianblur, gray`         | 77.90%         | 77.03%        |
-| SimCLR model   | `Alpub + ICDAR`       | `randomcrop224, invert, gaussianblur, gray`         | 76.90%         | 76.59%        |
+| Baseline model | `Alpub + ICDAR`       | randomcrop224,morpho_dilation,hflip             | 80.21%         | **79.75%**    |
+| Triplet model  | `Alpub + ICDAR`       | randomcrop224,invert,gaussianblur,gray         | 77.90%         | 77.03%        |
+| SimCLR model   | `Alpub + ICDAR`       | randomcrop224,invert,gaussianblur,gray         | 76.90%         | 76.59%        |
 
 
 
@@ -302,9 +302,9 @@ We report the best-found augmentation and their corresponding validation and tes
 
 | **Experiment** | **Dataset**          | **Best augmentation**                                 | **Valid Acc.** | **Test Acc.** |
 |----------------|-----------------------|-------------------------------------------------------|----------------|---------------|
-| Baseline model | `Alpub + ICDAR`       | `randomcrop224, morpho_erosion, affine, colorjitter`  | 80.68%         | **81.14%**    |
-| Triplet model  | `Alpub + ICDAR`       | `randomcrop224, morpho_dilation, affine, colorjitter` | 79.57%         | 78.88%        |
-| SimCLR model   | `Alpub + ICDAR`       | `randomcrop224, morpho_erosion, affine, colorjitter`  | 79.74%         | 79.18%        |
+| Baseline model | `Alpub + ICDAR`       | randomcrop224,morpho_erosion,affine,colorjitter  | 80.68%         | **81.14%**    |
+| Triplet model  | `Alpub + ICDAR`       | randomcrop224,morpho_dilation,affine,colorjitter | 79.57%         | 78.88%        |
+| SimCLR model   | `Alpub + ICDAR`       | randomcrop224,morpho_erosion,affine,colorjitter  | 79.74%         | 79.18%        |
 
 
 #### Results on ResNet-50 with pretraining on Alpub dataset (with top-4 selected using strategy 2):
@@ -312,9 +312,9 @@ We report the best-found augmentation and their corresponding validation and tes
 
 | **Experiment** | **Dataset**          | **Best augmentation**                                 | **Valid Acc.** | **Test Acc.** |
 |----------------|-----------------------|-------------------------------------------------------|----------------|---------------|
-| Baseline model | `Alpub + ICDAR`       | `randomcrop224, affine, colorjitter, gaussianblur`    | 81.35%         | **81.17%**    |
-| Triplet model  | `Alpub + ICDAR`       | `randomcrop224, morpho_dilation, affine, colorjitter` | 79.17%         | 78.24%        |
-| SimCLR model   | `Alpub + ICDAR`       | `randomcrop224, affine, colorjitter, gaussianblur`    | 78.68%         | 78.85%        |
+| Baseline model | `Alpub + ICDAR`       | randomcrop224,affine,colorjitter,gaussianblur    | 81.35%         | **81.17%**    |
+| Triplet model  | `Alpub + ICDAR`       | randomcrop224,morpho_dilation,affine,colorjitter | 79.17%         | 78.24%        |
+| SimCLR model   | `Alpub + ICDAR`       | randomcrop224,affine,colorjitter,gaussianblur    | 78.68%         | 78.85%        |
 
 
 
