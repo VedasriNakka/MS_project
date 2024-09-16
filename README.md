@@ -67,27 +67,25 @@ echo "Script path: $SCRIPT_PATH"
 
 
 epochs=20
-hpo_exp_name="CE_loss_resnet18_4_augmentations_alpub_icdar_seed2_$(date +'%Y-%m-%d_%H-%M-%S')"
+hpo_exp_name="CE_loss_resnet18_4_aug_alpub_seed2_sorted_4augs_$(date +'%Y-%m-%d_%H-%M-%S')"
 log_filepath=${hpo_exp_name}.log
 
     
-CUDA_VISIBLE_DEVICES=0,1,2,3 python Baseline_V2/src/hpo_v1.py \
-        --mode finetune_with_ce \
+CUDA_VISIBLE_DEVICES=0,1,2,3 python src/hpo_v1.py \
+        --mode finetune \
         --arch resnet18 \
-        --num_classes 25 \
-        --batch_size 128  \
+        --num_classes 24 \
+        --batch_size 198  \
         --epochs ${epochs} \
-        --dataset icdar \
-        --gpu_per_worker 1.0 \
+        --dataset alpub \
+        --gpu_per_worker 0.5 \
         --hpo_exp_name ${hpo_exp_name} \
         --log_filepath ${log_filepath} \
         --loss_fn ce \
         --triplet_embedding_size 64 \
         --launch_script_path ${SCRIPT_PATH} \
         --use_imagenet_pretrained_weights True \
-        --freeze_backbone False \
-        --ckpt_path_dict  /home/vedasri/Baseline_V2/results_hpo/final_experiments_v1/CE_loss_resnet18_4_augmentations_alpub_seed2_2024-08-11_11-50-13/config2ckpt_path.json \
-        --hpo_search_space_config "scripts/search_space/search_space_4_combinations_alpub_ce_seed2.yaml" $@ >& ./logs/${log_filepath} 
+        --hpo_search_space_config "scripts/search_space/search_space_4_com_alpub_ce_seed2_sorted_4augs.yaml" $@ >& ./logs/${log_filepath} 
 ```
 For fine-tuning we have changed only `--num_classes` to 24, `--dataset` to alpub and `--use_imagenet_pretrained_weights` to `False`. Make sure to check filename, `hpo_search_space_config` file
 
@@ -188,7 +186,7 @@ hpo_exp_name="alpub_SimCLR_finetine_with_ce_loss_unfreeze_backbone_4_agumentatio
 log_filepath=${hpo_exp_name}.log
 
     
-CUDA_VISIBLE_DEVICES=0,1,2,3 python src/hpo_v1.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3 python Baseline_V2/src/hpo_v1.py \
         --mode simclr_finetune_with_ce \
         --num_classes 25 \
         --arch resnet18 \
@@ -210,14 +208,22 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python src/hpo_v1.py \
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-In particular, we provide multiple commandl-line arguments such as batch size, number of epochs, model architecture. Our script looks as below:
+Below are the 3 commands to generate augmented views of 3 models:
 
+Baseline model:
 ```
-epochs=50
-python src/train.py --mode finetune --arch resnet18 --batch_size 64 --epochs ${epochs}
-python src/train.py --mode finetune --arch resnet34 --batch_size 64 --epochs ${epochs}
-python src/train.py --mode finetune --arch resnet50 --batch_size 64 --epochs ${epochs}
+python ./Baseline_V2/src/core/datatransform_builder_v3.py --transform_type randomcrop224,gaussianblur,gray
 ```
+Triplet model:
+```
+python ./Baseline_V2/src/core/datatransform_builder_v3_triplet.py --transform_type randomcrop224 --loss_fn triplet
+```
+SimCLR model:
+```
+python .SimCLR_/src/data_aug/datatransform_visuals.py --transform_type randomcrop198,morpho_dilation
+```
+
+
 
 ## Results
 
