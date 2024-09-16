@@ -245,7 +245,7 @@ We report the best-found augmentation and their corresponding validation and tes
 | Triplet model     | ICDAR       | randomcrop224,morpho_dilation,affine,colorjitter          | 80.11%         | 79.16%        |
 | SimCLR model      | ICDAR       | randomcrop224,affine,colorjitter,gray                     | 80.33%         | 80.00%        |
 
-### Results on ResNet-50 without pretraining on Alpub dataset
+#### Results on ResNet-50 without pretraining on Alpub dataset
 
 We report the best-found augmentation and their corresponding validation and test set accuracies. We observe that the baseline model achieves better results compared to the other two methods.
 
