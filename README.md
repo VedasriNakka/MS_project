@@ -319,7 +319,7 @@ We report the best-found augmentation and their corresponding validation and tes
 
 To better understand this outcome, we provide embedding visualizations generated from different methods to support and explain these quantitative results. These visualizations will offer deeper insights into how the representations learned during pretraining might have affected the final model performance and why the expected improvements did not materialize.
 
-### Comparison of t-SNE Visualizations of the Baseline Model
+#### Comparison of t-SNE Visualizations of the Baseline Model
 We visualize the embeddings of 1,000 data points from the ICDAR test set using the ResNet-18 backbone. The embeddings are derived from the feature representation just before the classification layer.
 
 
@@ -335,6 +335,26 @@ We visualize the embeddings of 1,000 data points from the ICDAR test set using t
     </td>
   </tr>
 </table>
+
+
+#### Comparison of t-SNE Visualizations of the Triplet Model
+The visualizations depict embeddings of 1,000 data points from the ICDAR test set using the ResNet-18 backbone. The pretraining and finetuning was conducted with the augmentations: `randomcrop224, invert, gaussianblur, gray`.
+
+table cellpadding="10">
+  <tr>
+    <td align="center" style="padding-right: 20px;">
+      <img src="Figures/triplet_tsne_alpub_icdar_18_20_new.png" alt="Embeddings at the End of Pretraining on ALPUB" width="400" border="0"/>
+      <p><strong>(a) Embeddings at the End of Pretraining on ALPUB</strong></p>
+    </td>
+    <td align="center" style="padding-left: 20px;">
+      <img src="Figures/triplet_tsne_alpub_finetune_ce_20.png" alt="Embeddings at the End of Further Finetuning on ICDAR" width="400" border="0"/>
+      <p><strong>(b) Embeddings at the End of Further Finetuning on ICDAR</strong></p>
+    </td>
+  </tr>
+</table>
+
+
+
 
 
 
