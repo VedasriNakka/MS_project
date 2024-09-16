@@ -377,7 +377,7 @@ Even though we expected pretraining on a larger and more diverse dataset to impr
 
 
 ## Discussion & Limitations
-
+### Discussion
 #### SimCLR Cropping Scheme Leads to Semantic Shift in the Labels
 
 <p align="center">
@@ -396,12 +396,16 @@ Comparison between ResNet-18 (left) and ResNet-50 (right) over 20 epochs.
 
 To check if SimCLR training is converging, we analyze the validation loss across different augmentations and epochs (above figure). The decreasing loss indicates the model is improving. However, pretraining on the ALPUB dataset does not improve performance on downstream tasks, possibly due to errors introduced during the cropping phase that affected the model's generalization to new datasets.
 
+### Limitations
+**Hyperparameter Tuning**: We optimized data-augmentation strategies but could not exhaustively tune model-specific hyperparameters (e.g., dropout rates, optimizer parameters) due to hardware constraints. This may have affected model performance and generalizability.
 
--**Hyperparameter Tuning**: We optimized data-augmentation strategies but could not exhaustively tune model-specific hyperparameters (e.g., dropout rates, optimizer parameters) due to hardware constraints. This may have affected model performance and generalizability.
--**Data Augmentation**: We explored 10 data augmentation strategies, but the Albumentations library supports up to 40. Many were not tested, and fixed hyperparameters could have limited our insights into model performance.
--**Cropping Size for SimCLR**: The choice to crop 60% of the original image was heuristic and not based on theory, which may have altered image semantics and affected performance.
--**Batch Size in SimCLR**: SimCLR is sensitive to batch size. We used a reduced batch size of 115 instead of the typical 2048 due to computational limits, which might have impacted the model's ability to learn robust representations.
--**Dataset Construction**: We used a fixed 70%-15%-15% split for training, validation, and testing. This could introduce bias, and multiple splits with averaged results may provide more reliable insights.
+**Data Augmentation**: We explored 10 data augmentation strategies, but the Albumentations library supports up to 40. Many were not tested, and fixed hyperparameters could have limited our insights into model performance.
+
+**Cropping Size for SimCLR**: The choice to crop 60% of the original image was heuristic and not based on theory, which may have altered image semantics and affected performance.
+
+**Batch Size in SimCLR**: SimCLR is sensitive to batch size. We used a reduced batch size of 115 instead of the typical 2048 due to computational limits, which might have impacted the model's ability to learn robust representations.
+
+**Dataset Construction**: We used a fixed 70%-15%-15% split for training, validation, and testing. This could introduce bias, and multiple splits with averaged results may provide more reliable insights.
 
 
 
