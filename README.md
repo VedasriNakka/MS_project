@@ -14,7 +14,7 @@ For our experiments, we split the cropped training images into a ratio of `70%`-
 ## Code Structure
 
 ```
-Baseline_V2/
+Baseline/
 │
 ├── src/
 │   ├── hpo_v1.py
@@ -30,7 +30,7 @@ Baseline_V2/
 ```
 
 ```
-SimCLR_V2/
+simclr/
 │
 ├── src/
 │   ├── hpo_v2.py
@@ -51,13 +51,13 @@ SimCLR_V2/
 To train the `Baseline model`, please run the following command:
 
 ```
-bash Baseline_V2/scripts/hpo_resnet18_4_com_ce_alpub_seed2_sorted_4aug.sh
+bash Baseline/scripts/hpo_resnet18_4_com_ce_alpub_seed2_sorted_4aug.sh
 ```
 
 To evaluate the `Baseline model`, please run the following command:
 
 ```
-bash Baseline_V2/scripts/hpo_resnet18_4_com_ce_alpub_seed2_sorted_finetune_4aug.sh
+bash Baseline/scripts/hpo_resnet18_4_com_ce_alpub_seed2_sorted_finetune_4aug.sh
 ```
 
 Example of the baseline model bash code(pertaining): 
@@ -71,7 +71,7 @@ hpo_exp_name="CE_loss_resnet18_4_aug_alpub_seed2_sorted_4augs_$(date +'%Y-%m-%d_
 log_filepath=${hpo_exp_name}.log
 
     
-CUDA_VISIBLE_DEVICES=0,1,2,3 python src/hpo_v1.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3 python Baseline/src/hpo_v1.py \
         --mode finetune \
         --arch resnet18 \
         --num_classes 24 \
@@ -93,13 +93,13 @@ For fine-tuning we have changed only `--num_classes` to 24, `--dataset` to alpub
 To train the `Triplet model`, please run the following command:
 
 ```
-bash Baseline_V2/scripts/hpo_resnet18_triplet_4combinations_alpub_seed2.sh
+bash Baseline/scripts/hpo_resnet18_triplet_4combinations_alpub_seed2.sh
 ```
 
 To evaluate the `Triplet model`, please run the following command:
 
 ```
-bash Baseline_V2/scripts/hpo_resnet18_triplet_finetune_4combinations_alpub.sh
+bash Baseline/scripts/hpo_resnet18_triplet_finetune_4combinations_alpub.sh
 ```
 
 Example of Triple model bash code
@@ -113,7 +113,7 @@ hpo_exp_name="Triplet_loss_alpub_4_agumentations_resnet18_seed2_$(date +'%Y-%m-%
 log_filepath=${hpo_exp_name}.log
 
     
-CUDA_VISIBLE_DEVICES=0,1,2,3 python Baseline_V2/src/hpo_v1.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3 python Baseline/src/hpo_v1.py \
         --mode finetune \
         --arch resnet18 \
         --num_classes 24 \
@@ -135,13 +135,13 @@ For fine-tuning we have changed only `--num_classes` to 24, `--dataset` to alpub
 To train the `SimCLR model`, please run the following command:
 
 ```
-bash SimCLR_V2/scripts/hpo_resnet18_resize198_top4_combinations_with_seed2.sh
+bash simclr/scripts/hpo_resnet18_resize198_top4_combinations_with_seed2.sh
 ```
 
 To evaluate the `SimCLR model`, please run the following command:
 
 ```
-bash SimCLR_V2/scripts/hpo_resnet18_simclr_finetune_alpub_4combinations_seed2.sh
+bash simclr/scripts/hpo_resnet18_simclr_finetune_alpub_4combinations_seed2.sh
 ```
 
 SExample of SimCLR model bash code (pertaining):
@@ -160,7 +160,7 @@ hpo_exp_name="${dataset}_simclr_resize198_top4_combinations_with_198_seed2"
 log_filepath=${hpo_exp_name}_$(date +'%Y-%m-%d_%H-%M-%S').log
 
     
-CUDA_VISIBLE_DEVICES=0,1,2,3 python src/hpo_v2.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3 python simclr/src/hpo_v2.py \
         --dataset_name ${dataset} \
         --num_classes 24 \
         --arch resnet18 \
@@ -186,7 +186,7 @@ hpo_exp_name="alpub_SimCLR_finetine_with_ce_loss_unfreeze_backbone_4_agumentatio
 log_filepath=${hpo_exp_name}.log
 
     
-CUDA_VISIBLE_DEVICES=0,1,2,3 python Baseline_V2/src/hpo_v1.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3 python Baseline/src/hpo_v1.py \
         --mode simclr_finetune_with_ce \
         --num_classes 25 \
         --arch resnet18 \
@@ -212,15 +212,15 @@ Below are the 3 commands to generate augmented views of 3 models:
 
 Baseline model:
 ```
-python ./Baseline_V2/src/core/datatransform_builder_v3.py --transform_type randomcrop224,gaussianblur,gray
+python ./Baseline/src/core/datatransform_builder_v3.py --transform_type randomcrop224,gaussianblur,gray
 ```
 Triplet model:
 ```
-python ./Baseline_V2/src/core/datatransform_builder_v3_triplet.py --transform_type randomcrop224 --loss_fn triplet
+python ./Baseline/src/core/datatransform_builder_v3_triplet.py --transform_type randomcrop224 --loss_fn triplet
 ```
 SimCLR model:
 ```
-python .SimCLR_/src/data_aug/datatransform_visuals.py --transform_type randomcrop198,morpho_dilation
+python .simclr/src/data_aug/datatransform_visuals.py --transform_type randomcrop198,morpho_dilation
 ```
 
 
