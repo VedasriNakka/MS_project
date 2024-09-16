@@ -94,7 +94,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python Baseline/src/hpo_v1.py \
         --use_imagenet_pretrained_weights True \
         --hpo_search_space_config "scripts/search_space/search_space_4_com_alpub_ce_seed2_sorted_4augs.yaml" $@ >& ./logs/${log_filepath} 
 ```
-For fine-tuning we have changed only `--num_classes` to 24, `--dataset` to alpub and `--use_imagenet_pretrained_weights` to `False`. Make sure to check filename, `hpo_search_space_config` file
+For fine-tuning we have changed only `--num_classes` to 25, `--dataset` to icdar, and `--use_imagenet_pretrained_weights` to `False`. Make sure to check filename, `hpo_search_space_config` file
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 To train the `Triplet model`, please run the following command:
@@ -136,7 +136,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python Baseline/src/hpo_v1.py \
         --use_imagenet_pretrained_weights True \
         --hpo_search_space_config "scripts/search_space/search_space_4_combinations_alpub_triplet_seed2.yaml" $@ >& ./logs/${log_filepath} 
 ```
-For fine-tuning we have changed only `--num_classes` to 24, `--dataset` to alpub and `--use_imagenet_pretrained_weights` to `False`. Make sure to check file name, `hpo_search_space_config` file
+For fine-tuning we have changed only `--num_classes` to 25, `--dataset` to alpub, and `--use_imagenet_pretrained_weights` to `False`. Make sure to check file name, `hpo_search_space_config` file
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 To train the `SimCLR model`, please run the following command:
@@ -184,9 +184,9 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python simclr/src/hpo_v2.py \
         --launch_script_path ${SCRIPT_PATH} \
         --hpo_search_space_config "scripts/search_space/search_space_resize198_top4_combinations_with_seed2.yaml" $@ >& ./logs/${log_filepath}
 ```
-For fine-tuning we have generated ckpt_path_dict file during training. We have added this file in Baseline code for fine-tuning.
+For fine-tuning, we generated a `ckpt_path_dict` file during training and included it in the Baseline code for the fine-tuning process.
 
-Below is an example of SimCLR model fine-tuning bash code:
+Here is an example of the bash code for fine-tuning the SimCLR model:
 ```
 epochs=20
 hpo_exp_name="alpub_SimCLR_finetine_with_ce_loss_unfreeze_backbone_4_agumentations_198_seed2_$(date +'%Y-%m-%d_%H-%M-%S')"
