@@ -324,10 +324,12 @@ We visualize the embeddings of 1,000 data points from the ICDAR test set using t
 
 
 #### (a) Embeddings at the End of Pretraining on ALPUB
-![Embeddings at the End of Pretraining on ALPUB](Figures/ce_tsne_alpub_icdar_18_20_new.png)
+<img src="Figures/ce_tsne_alpub_icdar_18_20_new.png" alt="Embeddings at the End of Pretraining on ALPUB" width="500"/>
 
 #### (b) Embeddings at the End of Further Finetuning on ICDAR
-![Embeddings at the End of Further Finetuning on ICDAR](Figures/ce_tsne_alpub_18_seed2_20_finetune.png)
+<img src="Figures/ce_tsne_alpub_18_seed2_20_finetune.png" alt="Embeddings at the End of Further Finetuning on ICDAR" width="500"/>
+
+
 
 
 
