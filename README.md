@@ -1,6 +1,6 @@
 # MS_project
 
-**Note**: If you like my findings and useful, please cite my paper ``
+<!-- **Note**: If you like my findings and useful, please cite my paper `` -->
 
 ## Overview
 
