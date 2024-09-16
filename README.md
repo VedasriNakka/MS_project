@@ -227,6 +227,8 @@ python .simclr/src/data_aug/datatransform_visuals.py --transform_type randomcrop
 
 ## Results
 
+We have devided results into 2 parts. One is `Without pre-training on Alpub`, second `With pre-training on Alpub`
+
 - After training for `10` epochs, we obtain a training accuracy of `79.42%`, Validation accuracy of `76.38%` and Test accuracy of `75.49%`.
 
 
