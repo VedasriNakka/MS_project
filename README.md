@@ -234,7 +234,7 @@ python .simclr/src/data_aug/datatransform_visuals.py --transform_type randomcrop
 
 We have devided results into 2 parts. One is `Without pre-training on Alpub`, second `With pre-training on Alpub`
 
-### Without Pre-training on Alpub:
+### `Without Pre-training` on Alpub:
 #### Results on ResNet-18 without pretraining on Alpub dataset
 
 We report the best-found augmentation and their corresponding validation and test set accuracies by directly fine-tuning on ICDAR. We observe that the baseline model achieves better results compared to the other two methods.
@@ -255,10 +255,8 @@ We report the best-found augmentation and their corresponding validation and tes
 | Triplet model     | ICDAR       | randomcrop224,morpho_erosion,morpho_dilation,gaussianblur | 79.29%         | 78.22%        |
 | SimCLR model      | ICDAR       | randomcrop224,colorjitter,gaussianblur             | 80.05%         | 79.24%        |
 
-### Without Pre-training on Alpub:
-Here’s a revised version of your text:
+### `With Pre-training` on Alpub:
 
----
 
 Due to limited computational resources, we selected the top 4 augmentations for training on the Alpub dataset using two different strategies:
 
