@@ -376,7 +376,7 @@ The visualizations depict embeddings of 1,000 data points from the ICDAR test se
 Even though we expected pretraining on a larger and more diverse dataset to improve performance, the results didn’t show any significant gains. The cross-entropy Baseline model still delivered the best overall accuracy. This was backed up by t-SNE visualizations, which showed cleaner class separations in the Baseline model compared to both the Triplet and SimCLR models.
 
 
-## Discussion & Limitations
+## Discussion, Limitations & Conclusion
 ### Discussion
 #### SimCLR Cropping Scheme Leads to Semantic Shift in the Labels
 
@@ -406,6 +406,12 @@ To check if SimCLR training is converging, we analyze the validation loss across
 **Batch Size in SimCLR**: SimCLR is sensitive to batch size. We used a reduced batch size of 115 instead of the typical 2048 due to computational limits, which might have impacted the model's ability to learn robust representations.
 
 **Dataset Construction**: We used a fixed 70%-15%-15% split for training, validation, and testing. This could introduce bias, and multiple splits with averaged results may provide more reliable insights.
+
+### Conclusion
+
+This thesis evaluates SimCLR for Greek letter recognition and compares it with traditional models using cross-entropy and triplet loss. We tested 93 data augmentation techniques and found that SimCLR, despite its popularity, did not outperform traditional methods for this task.
+
+The underperformance of SimCLR raises questions, particularly due to potential semantic shifts from cropping sub-images, which may affect letter recognition. Our analysis suggests that the baseline model with cross-entropy loss consistently performs better than both SimCLR and the triplet loss model.
 
 
 
