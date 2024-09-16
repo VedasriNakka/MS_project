@@ -1,5 +1,7 @@
 # MS_project
 
+**Note**: If you like my findings and useful, please cite my paper ``
+
 ## Overview
 
 This repository contains the baseline code for the Greek letter classification using `ResNet18/50` as the image classifier. The project is based on the `ICDAR2023` Competition on Detection and Recognition of `Greek Letters` on Papyri dataset.
@@ -371,6 +373,7 @@ The visualizations depict embeddings of 1,000 data points from the ICDAR test se
 </table>
 
 
+Even though we expected pretraining on a larger and more diverse dataset to improve performance, the results didn’t show any significant gains. The cross-entropy Baseline model still delivered the best overall accuracy. This was backed up by t-SNE visualizations, which showed cleaner class separations in the Baseline model compared to both the Triplet and SimCLR models.
 
 
 
