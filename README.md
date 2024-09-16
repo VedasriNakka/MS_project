@@ -342,11 +342,11 @@ The visualizations depict embeddings of 1,000 data points from the ICDAR test se
 
 table cellpadding="10">
   <tr>
-    <td align="center" style="padding-right: 20px;">
+    <td align="left" style="padding-right: 20px;">
       <img src="Figures/triplet_tsne_alpub_icdar_18_20_new.png" alt="Embeddings at the End of Pretraining on ALPUB" width="400" border="0"/>
       <p><strong>(a) Embeddings at the End of Pretraining on ALPUB</strong></p>
     </td>
-    <td align="center" style="padding-left: 20px;">
+    <td align="right" style="padding-left: 20px;">
       <img src="Figures/triplet_tsne_alpub_finetune_ce_20.png" alt="Embeddings at the End of Further Finetuning on ICDAR" width="400" border="0"/>
       <p><strong>(b) Embeddings at the End of Further Finetuning on ICDAR</strong></p>
     </td>
