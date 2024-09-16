@@ -340,13 +340,13 @@ We visualize the embeddings of 1,000 data points from the ICDAR test set using t
 #### Comparison of t-SNE Visualizations of the Triplet Model
 The visualizations depict embeddings of 1,000 data points from the ICDAR test set using the ResNet-18 backbone. The pretraining and finetuning was conducted with the augmentations: `randomcrop224, invert, gaussianblur, gray`.
 
-table cellpadding="10">
+<table cellpadding="10">
   <tr>
-    <td align="left" style="padding-right: 20px;">
+    <td align="center" style="padding-right: 20px;">
       <img src="Figures/triplet_tsne_alpub_icdar_18_20_new.png" alt="Embeddings at the End of Pretraining on ALPUB" width="400" border="0"/>
       <p><strong>(a) Embeddings at the End of Pretraining on ALPUB</strong></p>
     </td>
-    <td align="right" style="padding-left: 20px;">
+    <td align="center" style="padding-left: 20px;">
       <img src="Figures/triplet_tsne_alpub_finetune_ce_20.png" alt="Embeddings at the End of Further Finetuning on ICDAR" width="400" border="0"/>
       <p><strong>(b) Embeddings at the End of Further Finetuning on ICDAR</strong></p>
     </td>
