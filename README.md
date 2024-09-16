@@ -323,13 +323,13 @@ To better understand this outcome, we provide embedding visualizations generated
 We visualize the embeddings of 1,000 data points from the ICDAR test set using the ResNet-18 backbone. The embeddings are derived from the feature representation just before the classification layer.
 
 
-<table cellpadding="10">
+<table cellpadding="10" style="border: none;">
   <tr>
-    <td align="center" style="padding-right: 20px;">
+    <td align="center" style="border: none; padding-right: 20px;">
       <img src="Figures/ce_tsne_alpub_icdar_18_20_new.png" alt="Embeddings at the End of Pretraining on ALPUB" width="400"/>
       <p><strong>(a) Embeddings at the End of Pretraining on ALPUB</strong></p>
     </td>
-    <td align="center" style="padding-left: 20px;">
+    <td align="center" style="border: none; padding-left: 20px;">
       <img src="Figures/ce_tsne_alpub_18_seed2_20_finetune.png" alt="Embeddings at the End of Further Finetuning on ICDAR" width="400"/>
       <p><strong>(b) Embeddings at the End of Further Finetuning on ICDAR</strong></p>
     </td>
