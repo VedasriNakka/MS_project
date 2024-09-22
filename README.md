@@ -1,6 +1,6 @@
 # MS_project
 
-<!-- **Note**: If you like my findings and useful, please cite my paper `` -->
+**Note**: If you like my findings and useful, please cite my paper: http://arxiv.org/abs/2409.10156
 
 ## Overview
 
