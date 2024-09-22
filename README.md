@@ -283,9 +283,9 @@ We report the best-found augmentation and their corresponding validation and tes
 
 | **Experiment**    | **Dataset**          | **Best Augmentation**                              | **Valid Acc.** | **Test Acc.** |
 |-------------------|----------------------|---------------------------------------------------|----------------|---------------|
-| Baseline model    | Alpub + ICDAR         | randomcrop224,hflip,gray                      | 80.49%         | **79.94%**    |
-| Triplet model     | Alpub + ICDAR         | randomcrop224,morpho_dilation,hflip           | 78.19%         | 77.51%        |
-| SimCLR model      | Alpub + ICDAR         | randomcrop224,colorjitter,hflip,invert       | 77.55%         | 76.14%        |
+| Baseline model    | `Alpub + ICDAR`         | randomcrop224,hflip,gray                      | 80.49%         | **79.94%**    |
+| Triplet model     | `Alpub + ICDAR`       | randomcrop224,morpho_dilation,hflip           | 78.19%         | 77.51%        |
+| SimCLR model      | `Alpub + ICDAR`         | randomcrop224,colorjitter,hflip,invert       | 77.55%         | 76.14%        |
 
 #### Results on ResNet-50 with pretraining on Alpub dataset (with top-4 selected using strategy 1):
  We report the best found augmentation and their corresponding validation and test set accuracies. We observe the baseline model achieves the best results compared to the other two methods.
