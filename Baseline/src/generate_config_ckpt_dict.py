@@ -15,7 +15,13 @@ from os.path import basename, normpath
 #exp_path = '/home/vedasri/Baseline_V2/results_hpo/final_experiments_v1/Triplet_resnet50_loss_alpub_4_1_agumentations_seed_1aug_2024-09-04_19-58-26'
 #exp_path = '/home/vedasri/Baseline_V2/results_hpo/final_experiments_v1/CE_loss_resnet18_4_aug_alpub_seed2_sorted_4augs_2024-09-05_15-21-49'
 #exp_path = '/home/vedasri/Baseline_V2/results_hpo/final_experiments_v1/CE_loss_resnet50_4_aug_alpub_seed2_new_4aug_2024-09-05_21-59-36'
-exp_path = '/home/vedasri/Baseline_V2/results_hpo/final_experiments_v1/Triplet_resnet50_loss_alpub_4_1_agumentations_seed_1aug_new_2024-09-05_17-45-05'
+#exp_path = '/home/vedasri/Baseline_V2/results_hpo/final_experiments_v1/Triplet_resnet50_loss_alpub_4_1_agumentations_seed_1aug_new_2024-09-05_17-45-05'
+#exp_path = '/home/vedasri/Baseline_V2/results_hpo/final_experiments_v2/CE_loss_resnet18_4_aug_alpub_wi_2024-09-19_09-56-23'
+#exp_path = '/home/vedasri/Baseline_V2/results_hpo/final_experiments_v2/CE_loss_resnet50_4_aug_alpub_wi_2024-09-20_10-39-44'
+
+#exp_path = '/home/vedasri/Baseline_V2/results_hpo/final_experiments_v2/Triplet_loss_alpub_4_aug_resnet18_wi_2024-09-21_20-42-21'
+exp_path = '/home/vedasri/Baseline_V2/results_hpo/final_experiments_v2/Triplet_resnet50_loss_alpub_4_aug_wi_2024-09-21_10-55-58'
+
 
 def runner(config, args):
     pass

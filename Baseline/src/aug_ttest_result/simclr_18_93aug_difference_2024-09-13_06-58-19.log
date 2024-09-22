@@ -1,0 +1,39 @@
+2024-09-13 06:58:19,469 - INFO -                                          Augmentation   Accuracy
+0   randomcrop224,morpho_erosion,morpho_dilation,c...  79.843450
+1                           randomcrop224,colorjitter  79.823875
+2                          randomcrop224,hflip,invert  78.864974
+3               randomcrop224,affine,colorjitter,gray  80.156559
+4                                 randomcrop224,hflip  78.434443
+..                                                ...        ...
+88           randomcrop224,morpho_erosion,affine,gray  80.234838
+89   randomcrop224,morpho_dilation,colorjitter,invert  79.686892
+90          randomcrop224,morpho_erosion,affine,hflip  78.219181
+91        randomcrop224,morpho_dilation,affine,invert  79.726028
+92                  randomcrop224,affine,hflip,invert  78.473586
+
+[93 rows x 2 columns]
+2024-09-13 06:58:19,517 - INFO - baseline_accuracy: 79.7847390175
+2024-09-13 06:58:19,558 - INFO - top_10_augmentations:---->                                          Augmentation  ...  Difference
+19               randomcrop224,morpho_dilation,affine  ...    1.017612
+41   randomcrop224,morpho_dilation,affine,colorjitter  ...    0.978476
+20                  randomcrop224,affine,gaussianblur  ...    0.665361
+17                         randomcrop224,gaussianblur  ...    0.626224
+48                               randomcrop224,affine  ...    0.528377
+79             randomcrop224,colorjitter,gaussianblur  ...    0.489235
+88           randomcrop224,morpho_erosion,affine,gray  ...    0.450099
+9                 randomcrop224,morpho_erosion,affine  ...    0.450099
+80   randomcrop224,morpho_erosion,affine,gaussianblur  ...    0.430530
+15  randomcrop224,morpho_erosion,morpho_dilation,a...  ...    0.410956
+
+[10 rows x 3 columns]
+2024-09-13 06:58:19,559 - INFO - Top 10 Augmentations compared to 'randomcrop224':
+2024-09-13 06:58:19,559 - INFO - randomcrop224,morpho_dilation,affine
+2024-09-13 06:58:19,559 - INFO - randomcrop224,morpho_dilation,affine,colorjitter
+2024-09-13 06:58:19,559 - INFO - randomcrop224,affine,gaussianblur
+2024-09-13 06:58:19,559 - INFO - randomcrop224,gaussianblur
+2024-09-13 06:58:19,559 - INFO - randomcrop224,affine
+2024-09-13 06:58:19,559 - INFO - randomcrop224,colorjitter,gaussianblur
+2024-09-13 06:58:19,559 - INFO - randomcrop224,morpho_erosion,affine,gray
+2024-09-13 06:58:19,559 - INFO - randomcrop224,morpho_erosion,affine
+2024-09-13 06:58:19,559 - INFO - randomcrop224,morpho_erosion,affine,gaussianblur
+2024-09-13 06:58:19,559 - INFO - randomcrop224,morpho_erosion,morpho_dilation,affine

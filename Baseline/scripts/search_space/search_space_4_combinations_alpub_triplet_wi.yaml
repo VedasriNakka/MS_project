@@ -1,0 +1,27 @@
+transform_type:
+  type: grid
+  choices: [
+
+        "randomcrop224,morpho_dilation,affine",
+        "randomcrop224,affine,gaussianblur",
+        "randomcrop224,gaussianblur",
+        # "randomcrop224,morpho_dilation,affine,colorjitter"
+
+        # "randomcrop224,morpho_dilation,hflip",
+        # "randomcrop224,hflip,gray",
+        # "randomcrop224,invert,gaussianblur,gray",
+        # "randomcrop224,colorjitter,hflip,invert",
+
+        # "randomcrop224,affine,colorjitter,gaussianblur",
+        # "randomcrop224,affine,colorjitter,gray",
+        # "randomcrop224,morpho_dilation,affine,colorjitter",
+        # "randomcrop224,morpho_erosion,morpho_dilation,affine",
+
+        # "randomcrop224,morpho_dilation,affine,gaussianblur"
+        # "randomcrop224,morpho_erosion,colorjitter,gaussianblur"
+        # "randomcrop224,morpho_erosion,morpho_dilation,gaussianblur"
+        # "randomcrop224,morpho_erosion,affine,gray"
+        # "randomcrop224,morpho_erosion,affine,colorjitter"
+        # "randomcrop224,morpho_erosion,gray"
+        ]
+

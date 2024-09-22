@@ -225,9 +225,11 @@ def get_model(args, num_classes, logger):
                 param.requires_grad = False    
                 logger.info(f"Freezing the weights of the  layer: {name}")
 
-            for name, param in model_ft.projection_layer.named_parameters():
-                param.requires_grad = False    
-                logger.info(f"Freezing the weights of the  layer: {name}")
+            if train_mode == 'triplet_finetune_with_ce':
+            
+                for name, param in model_ft.projection_layer.named_parameters():
+                    param.requires_grad = False    
+                    logger.info(f"Freezing the weights of the  layer: {name}")
 
 
 
