@@ -1,4 +1,5 @@
-# MS_project
+# Contrastive Learning for Character Detection in Ancient Greek Papyri
+Vedasri Nakka
 
 **Note**: If you like my findings and useful, please cite my paper: http://arxiv.org/abs/2409.10156
 
