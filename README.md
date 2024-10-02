@@ -1,5 +1,6 @@
 # Contrastive Learning for Character Detection in Ancient Greek Papyri
-Vedasri Nakka
+Completed project under Supervision of **Prof. Rolf Ingold**, **Prof. Andreas Fischer** and **Lars Vogtlin**
+-- Vedasri Nakka
 
 **Note**: If you like my findings and useful, please cite my paper: http://arxiv.org/abs/2409.10156
 
